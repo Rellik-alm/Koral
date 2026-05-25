@@ -1,4 +1,4 @@
-<!-- Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos. -->
+<!-- Procesado: 2026-05-25 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos. -->
 
 # AS - IS: Inventario: A y B (CAJA)
 
@@ -780,11 +780,11 @@ Creado: 30 de marzo de 2026 9:50
         - ¿Qué se genera al terminar?
             - Lista de productos faltantes que sirve de insumo para el formato de requisición (Tarea 3.3).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Proceso manual. No se usa sistema digital para este inventario.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se detecta que hay exceso de un producto con baja rotación. No se solicita más y se reporta a Administración para evaluar promociones o rotación del stock.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el cajero pueda ingresar las cantidades directamente en el software administrativo desde el almacén, generando la requisición de forma instantánea.
     - Propuesta 3.1: Inventario general
         - Pendiente.
 - TAREA 3.2: Solicitud de requisición de productos a almacén general
@@ -806,11 +806,11 @@ Creado: 30 de marzo de 2026 9:50
         - ¿Qué se genera al terminar?
             - Inicio del proceso de requisición que se formaliza con el llenado del formato (Tarea 3.3).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Formato manual físico.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el formato tiene errores, tachaduras o carece de las firmas de autorización necesarias, el cajero debe repetir el llenado del formato de inmediato para no retrasar el despacho.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el cajero cargue la solicitud de requisición digitalmente en el sistema; al darle "Enviar", el almacenista recibe una alerta en su pantalla, prepara el pedido y avisa a caja para que pasen a retirar, ahorrando múltiples viajes.
     - Propuesta 3.2: Solicitud de requisición de productos a almacén general
         - Pendiente.
 - TAREA 3.3: Llenado de formato de requisición
@@ -828,7 +828,7 @@ Creado: 30 de marzo de 2026 9:50
             - Paso 1: Se toma el formato de requisición.
             - Paso 2: Se registran los productos solicitados con sus cantidades.
             - Paso 3: Se lleva el formato a solicitar firma de autorización (Tarea 3.4).
-            - ⚠️ Pendiente validar en sesión próxima: campos específicos del formato de requisición de caja.
+            - Paso 3: Se lleva el formato a solicitar firma de autorización (Tarea 3.4).
         - ¿Qué necesitan para hacer esta tarea?
             - Formato de requisición disponible. Lista de productos a solicitar (resultado de la Tarea 3.1).
         - ¿Qué se genera al terminar?
@@ -836,9 +836,9 @@ Creado: 30 de marzo de 2026 9:50
         - ¿Qué sistemas o herramientas usan?
             - Formato físico de requisición: documento manual.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el formato tiene enmiendas o corrector (Liquid Paper), el almacén puede rechazarlo por sospecha de alteración. Ante un error, se anula el formato completo y se inicia uno nuevo para mantener la pulcritud del registro.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Tener un archivo Excel con los ítems fijos del hotel donde el cajero solo coloca las cantidades, imprime y firma, evitando errores de letra ilegible que confundan al almacenista.
     - Propuesta 3.3: Llenado de formato de requisición
         - Pendiente.
 - TAREA 3.4: Solicitud de firma a Gerencia (Adriana Montes Caceres o Libny Carina Tarazon Gallegos)
@@ -863,9 +863,9 @@ Creado: 30 de marzo de 2026 9:50
         - ¿Qué sistemas o herramientas usan?
             - Formato físico de requisición: documento que circula para recabar la firma de autorización.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si ni Adriana ni Libny se encuentran disponibles en el momento de la urgencia, se debe establecer quién queda como firma por delegación o si se permite un aviso por radio o WhatsApp para proceder y firmar el documento a posteriori.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el cajero cargue la requisición en el sistema y las gerentes reciban una notificación en sus computadoras; con un clic o firma digital, la orden llegaría directamente a almacén, eliminando los traslados físicos del personal.
     - Propuesta 3.4: Solicitud de firma a Gerencia
         - Pendiente.
 - TAREA 3.5: Retiro de productos solicitados y almacenamiento de los mismos en el almacén de Caja
@@ -891,9 +891,9 @@ Creado: 30 de marzo de 2026 9:50
         - ¿Qué sistemas o herramientas usan?
             - Formato físico de requisición: el encargado de almacén general firma el formato como constancia de entrega al momento del retiro, siguiendo el mismo proceso documentado para cocina y bar (confirmado en sesión kmmin001).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el formato indica una cantidad mayor a la que almacén entrega por falta de stock, el cajero debe exigir que el almacenista corrija la cantidad en el formato físico antes de firmar el "Recibido Conforme". No se debe firmar por mercancía que no se está retirando.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el personal de almacén general sea el encargado de trasladar el pedido hasta el almacén de caja en períodos de alta ocupación, permitiendo que el cajero no abandone su puesto y mantenga la operatividad de caja al 100%.
     - Propuesta 3.5: Retiro de productos solicitados y almacenamiento en el almacén de Caja
         - Pendiente.
 - TAREA 4.0: Entrega de Guardia de Turno (A partir de las 3pm)
@@ -908,17 +908,17 @@ Creado: 30 de marzo de 2026 9:50
             - Disparador: Llegada del personal del turno de la tarde.
             - Frecuencia: Diaria, a las 3:00 PM.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima: procedimiento específico de la entrega de guardia de caja (qué información se transmite, si hay algún formato o registro).
+            - Las novedades del día se escriben en el cuaderno de novedades y se notifica verbalmente a la persona que recibe el turno sobre las actividades pendientes.
         - ¿Qué necesitan para hacer esta tarea?
             - Área limpia y organizada. Inventario actualizado del almacén de caja, neveras y vitrina.
         - ¿Qué se genera al terminar?
             - Turno de la tarde informado y listo para continuar la operación de almuerzo/snacks/cena.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Cuaderno de novedades (escrito) y comunicación verbal.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el cajero del turno de la tarde no llega a las 3:00 PM, el cajero de la mañana no puede abandonar el puesto. Debe notificar a Gerencia (Adriana o Libny) y esperar el relevo o instrucciones para asegurar que la caja nunca quede sola.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Un formulario rápido en una tablet con checklist de puntos clave (área limpia, neveras llenas, fondo de caja verificado, pendientes anotados) que genere un reporte automático a Administración al completarse.
     - Propuesta 4.0: Entrega de Guardia de Turno
         - Pendiente.
 - TAREA 4.1: Recepción del pedido de huésped
@@ -936,17 +936,17 @@ Creado: 30 de marzo de 2026 9:50
             - Paso 1: El mesonero se acerca al huésped en la mesa y toma el pedido.
             - Paso 2: El mesonero transmite el pedido a caja.
             - Paso 3: El cajero recibe el pedido y procede a crearlo en Poster (Tarea 4.2).
-            - ⚠️ Pendiente validar en sesión próxima: si el mesonero transmite el pedido de forma verbal, en papel o a través de la tablet.
+            - El pedido se transmite de forma manual a través de la comandera física que tiene cada mesonero.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido del huésped transmitido por el mesonero.
         - ¿Qué se genera al terminar?
             - Pedido del huésped recibido y listo para ser creado como comanda en Poster (Tarea 4.2).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Comanderas físicas (papel): el mesonero anota el pedido y lo entrega al cajero.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el cajero no entiende lo escrito en la comandera, no debe suponer; debe llamar al mesonero de inmediato para aclarar el pedido antes de marcarlo en Poster.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el mesonero tenga una tablet con el software de Poster en la mesa; al marcar el pedido, este llegaría automáticamente a la pantalla del cajero, eliminando el error humano del traspaso manual.
     - Propuesta 4.1: Recepción del pedido de huésped
         - Pendiente.
 

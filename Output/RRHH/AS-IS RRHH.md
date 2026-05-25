@@ -1,6 +1,6 @@
 # AS - IS: Talento Humano
 
-Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
+Procesado: 2026-05-25 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
 
 Creado: 17 de marzo de 2026 10:31
 
@@ -31,7 +31,7 @@ Creado: 17 de marzo de 2026 10:31
     - ¿Qué pasa cuando las cosas no salen normal?
         - Los portales pueden presentar demoras en reflejar movimientos de ingreso o egreso; un trabajador registrado puede no aparecer hasta el mes siguiente. Se requiere seguimiento continuo para validar concordancia con la base de datos interna. (Fuente: kmmin002)
     - ¿Cómo les gustaría que funcionara idealmente?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Que los portales estatales reflejen de manera oportuna y consistente los movimientos de ingreso, egreso y estatus de los trabajadores. Que la disponibilidad mensual de facturas, listados y solvencias permita validar los montos a pagar de forma directa y continua, minimizando riesgos administrativos o legales derivados de desfases en los registros.
     - **Propuesta 1.1.1:**
         - Pendiente.
 - **AS-IS 1.1.2: Listado de personal activo, estados de cuenta y solvencias**
@@ -61,9 +61,9 @@ Creado: 17 de marzo de 2026 10:31
         - Portales web estatales: descarga de solvencias y listados.
         - Correo electrónico: envío de Andry a Marilyn para publicación.
     - ¿Qué pasa cuando las cosas no salen normal?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Puede ocurrir que, aun habiéndose realizado el pago, los portales parafiscales no reflejen de forma inmediata la solvencia o los listados actualizados, excediendo el lapso habitual de 24 a 48 horas, lo que obliga a realizar consultas posteriores y seguimientos manuales. También pueden presentarse fallas técnicas en los portales (indisponibilidad, errores de descarga o información incompleta), lo que retrasa la obtención de los documentos.
     - ¿Cómo les gustaría que funcionara idealmente?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Una vez confirmado el pago, los entes parafiscales deberían reflejar la solvencia y los listados de personal activo de forma oportuna y consistente, permitiendo la descarga inmediata de la documentación requerida. El proceso ideal mantendría las solvencias y listados actualizados de manera continua, garantizando su disponibilidad permanente en la cartelera fiscal y archivos físicos para auditorías o visitas de entes reguladores.
     - **Propuesta 1.1.2:**
         - Pendiente.
 - **AS-IS 1.1.3: Reporte de compromisos y seguimiento de pagos a Administración y Finanzas**
@@ -87,9 +87,9 @@ Creado: 17 de marzo de 2026 10:31
     - ¿Qué sistemas o herramientas usan?
         - Correo electrónico: canal de envío de la solicitud de compromiso de pago a Administración y Finanzas. Administración devuelve el comprobante de pago por el mismo canal. (Fuente: kmmin002)
     - ¿Qué pasa cuando las cosas no salen normal?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Puede ocurrir que la Gerencia de Administración y Finanzas no confirme el compromiso o la ejecución del pago de forma oportuna, generando desfases en el calendario mensual de los parafiscales. Asimismo, pueden surgir discrepancias entre los montos solicitados y los finalmente pagados, debido a que los entes generan interés por mora o multas automáticas, obligando a aclaratorias adicionales y nuevos seguimientos.
     - ¿Cómo les gustaría que funcionara idealmente?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - El compromiso de pago debería ser confirmado de manera oportuna una vez remitida la solicitud. El proceso ideal contemplaría una comunicación fluida y clara entre Talento Humano y Administración y Finanzas, asegurando que los compromisos solicitados se correspondan exactamente con los montos validados y que los comprobantes de pago sean remitidos de forma inmediata.
     - **Propuesta 1.1.3:**
         - Pendiente.
 - **AS-IS 1.1.4: Actualización mensual de la carpeta Oslo con toda la información parafiscal**
@@ -112,9 +112,9 @@ Creado: 17 de marzo de 2026 10:31
     - ¿Qué sistemas o herramientas usan?
         - Carpeta física (archivo físico): para almacenamiento de la documentación parafiscal.
     - ¿Qué pasa cuando las cosas no salen normal?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Puede ocurrir que la documentación parafiscal del mes no se reciba de forma completa o en los lapsos previstos, lo que retrasa la consolidación y archivo oportuno en la carpeta Oslo. También pueden presentarse extravíos temporales de documentos físicos o desorden en la clasificación mensual o trimestral.
     - ¿Cómo les gustaría que funcionara idealmente?
-        - ⚠️ Pendiente validar en sesión próxima.
+        - Toda la documentación parafiscal del mes debería recibirse de manera completa y organizada, permitiendo su archivo inmediato en la carpeta Oslo sin reprocesos. El proceso ideal garantizaría una clasificación clara, uniforme y cronológica, facilitando su rápida ubicación y disponibilidad ante auditorías o visitas de entes gubernamentales.
     - **Propuesta 1.1.4:**
         - Pendiente.
 
@@ -145,9 +145,9 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Impresora en oficina de Talento Humano (Caracas) y en el hotel: impresión y publicación física de los documentos. No se usa sistema de gestión documental; el proceso es completamente manual. (Fuente: kmmin002)
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que la documentación no sea remitida oportunamente por la Gerencia de Administración y Finanzas, generando retrasos en la impresión y publicación de los documentos exigidos. También pueden presentarse discrepancias entre las fechas de vencimiento reales y las detectadas en la cartelera, o requerimientos imprevistos durante visitas de fiscalización.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La documentación requerida por los distintos entes reguladores debería ser entregada con suficiente antelación a sus fechas de vencimiento. El proceso ideal garantizaría que toda la información fiscal se mantenga permanentemente vigente, organizada y disponible en la cartelera fiscal y carpetas correspondientes.
     - **Propuesta 1.2.1/1.2.2:**
         - Pendiente.
     - **AS-IS 1.2.3: Soporte administrativo en auditorías o requerimientos de entes públicos**
@@ -203,9 +203,9 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Carpeta física: archivo de certificados del personal de A&B.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que alguno de los certificados de manipulación de alimentos se encuentre vencido o próximo a vencer sin haber sido detectado oportunamente, generando riesgo de incumplimiento ante una visita de Sanidad. También pueden presentarse retrasos en la actualización por disponibilidad del personal o de los centros emisores.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Todos los certificados de manipulación de alimentos del personal de A&B deberían mantenerse vigentes y actualizados de forma continua. La revisión mensual debería ser clara y ordenada, asegurando que la carpeta de certificaciones esté siempre completa y disponible ante cualquier inspección.
     - **Propuesta 1.3.1:**
         - Pendiente.
     - **AS-IS 1.3.2: Control mensual de fechas de vencimiento del Certificado de Salud**
@@ -230,11 +230,11 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Carpeta física: archivo de certificados de salud del personal de A&B.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que alguno de los certificados de salud del personal de A&B se encuentre vencido o próximo a vencer sin haber sido detectado oportunamente, generando riesgo de incumplimiento ante inspecciones sanitarias. También pueden presentarse retrasos en la renovación por disponibilidad del personal, tiempos de espera en los centros emisores o falta de entrega oportuna del documento físico.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Los certificados de salud del personal de A&B deberían mantenerse vigentes de forma continua. La revisión mensual debería ser clara y ordenada, garantizando que la carpeta física de certificados de salud esté siempre completa, actualizada y disponible ante cualquier visita de entes sanitarios.
         - **Propuesta 1.3.2:**
-            - Pendiente.
+            - Establecer un control mensual sistemático de las fechas de vencimiento de los certificados de salud del personal de A&B, con seguimiento previo a los vencimientos, a fin de gestionar las renovaciones con antelación y asegurar el cumplimiento continuo de las exigencias sanitarias.
 
 ---
 
@@ -260,7 +260,7 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Excel: elaboración del cuadro de previsión de fondos con detalle de sueldos, descuentos y montos a pagar.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que la información de nómina no se encuentre completamente actualizada al momento de elaborar el cuadro de previsión (novedades de ingreso, egreso, horas extras o solicitudes de vacaciones no informadas oportunamente), generando ajustes posteriores y reprocesos del cálculo.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que todo el cálculo de nómina, incluyendo utilidades, vacaciones y cestatickets, se gestione directamente desde el módulo de nómina de Odoo, eliminando la necesidad de manejar una base paralela en Excel.
         - **Propuesta 2.1.2:**
@@ -287,9 +287,9 @@ Creado: 17 de marzo de 2026 10:31
             - Excel: soporte del cuadro de previsión.
             - Correo electrónico: canal de envío principal para constancia formal; WhatsApp para comunicación rápida. (Fuente: kmmin001, kmmin002)
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que la previsión de fondos enviada no sea revisada o confirmada oportunamente por el Departamento de Administración y Finanzas, generando retrasos en la planificación financiera. También pueden presentarse modificaciones posteriores en la nómina que obligan al reenvío de la previsión actualizada.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La previsión de fondos debería ser recibida, validada y confirmada por Administración y Finanzas de manera oportuna, garantizando la disponibilidad de recursos con suficiente antelación a cada fecha de pago. El proceso ideal permitiría una comunicación fluida y ordenada para que cualquier variación sea gestionada y validada previamente.
         - **Propuesta 2.1.3:**
             - Pendiente.
 
@@ -385,7 +385,7 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Formato físico impreso: llenado manual por los jefes de departamento.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que los formatos de horas extras sean entregados de manera incompleta, con datos faltantes, errores en fechas, horas trabajadas, tipo de jornada o sin la debida firma del jefe de departamento. También pueden presentarse retrasos en la entrega semanal de los formatos por parte de los departamentos.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que el sistema registre automáticamente las horas extras desde el fichaje, eliminando los formatos manuales y el proceso de distribución física.
         - **Propuesta 2.2.3:**
@@ -416,7 +416,7 @@ Creado: 17 de marzo de 2026 10:31
                 - Excel: cálculo y consolidación de horas extras por departamento.
                 - WhatsApp: envío a gerencia para aprobación.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima.
+                - Puede ocurrir que los formatos de horas extras no sean recibidos completos o dentro del lapso previsto por parte de todos los departamentos, retrasando el cálculo. También pueden presentarse errores en el llenado que obligan a realizar aclaratorias con los jefes de departamento y ajustes manuales.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Que el módulo de nómina de Odoo calcule automáticamente las horas extras a partir del registro de asistencia, eliminando el proceso manual en Excel.
         - **Propuesta 2.3.1:**
@@ -443,9 +443,9 @@ Creado: 17 de marzo de 2026 10:31
             - WhatsApp: envío del reporte a gerencia para aprobación.
             - Excel: soporte del cuadro de horas extras.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que la gerencia no emita la aprobación dentro del lapso esperado, retrasando la ejecución del pago. También pueden detectarse observaciones o discrepancias en el reporte enviado, obligando a realizar correcciones y reenviar el cuadro.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La aprobación del reporte de horas extras debería realizarse de forma oportuna y clara una vez recibido. El proceso ideal permitiría contar con una validación formal y trazable que asegure que los montos autorizados coincidan con los calculados.
         - **Propuesta 2.3.2:**
             - Pendiente.
     - **AS-IS 2.3.3: Elaboración de archivo masivo (TXT) para pago de horas extras y nómina**
@@ -473,9 +473,9 @@ Creado: 17 de marzo de 2026 10:31
             - Excel: fuente de datos para construcción del TXT.
             - Portal bancario: carga y ejecución del archivo TXT para pagos masivos.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que los datos bancarios de algún trabajador estén desactualizados o presenten inconsistencias, generando rechazos del archivo TXT al momento de la carga en el portal bancario. También pueden presentarse errores en la estructura del archivo o diferencias entre los montos aprobados y los cargados.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La información bancaria de los trabajadores debería mantenerse siempre actualizada y validada, permitiendo la generación y carga del archivo TXT sin errores. El proceso ideal garantizaría que el archivo masivo se genere correctamente desde el primer intento, permitiendo la ejecución oportuna de los pagos sin reprocesos.
         - **Propuesta 2.3.3:**
             - Pendiente.
     - **AS-IS 2.3.4: Transferencias individuales a colaboradores con cuentas de otros bancos**
@@ -500,9 +500,9 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Portal bancario (Banplus): ejecución de transferencias individuales a cuentas de terceros.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que alguna transferencia individual falle o sea rechazada por el banco debido a datos bancarios incorrectos, cuentas inactivas, restricciones del banco receptor o errores operativos. También pueden presentarse retrasos en comparación con el pago masivo, generando reclamos por parte de los trabajadores afectados.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Todos los trabajadores deberían recibir sus pagos de forma simultánea y oportuna, independientemente del banco donde tengan su cuenta, sin necesidad de gestionar transferencias manuales individuales. El proceso ideal minimizaría las transferencias individuales, asegurando mayor eficiencia operativa y una conciliación bancaria más ágil.
         - **Propuesta 2.3.4:**
             - Pendiente.
 
@@ -535,9 +535,9 @@ Creado: 17 de marzo de 2026 10:31
             - Sistema Poster: validación de consumos registrados en el punto de venta.
             - Excel (cuadro de nómina): registro de descuentos clasificados por concepto.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que las comandas físicas de consumo no sean entregadas completas o de forma oportuna, dificultando la validación de los consumos. También pueden presentarse diferencias entre las comandas físicas, el sistema Poster y los estados de cuenta, obligando a verificaciones adicionales y aclaratorias antes de aplicar el descuento.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Los consumos del personal deberían quedar registrados de manera clara, consistente y oportuna, permitiendo su validación sin diferencias entre las comandas físicas y los registros del sistema. El proceso ideal permitiría contar con información consolidada y confiable al cierre de cada período, garantizando la aplicación correcta y transparente de los descuentos en nómina.
     - **Propuesta 2.5.1:**
         - Pendiente.
     - **AS-IS 2.5.2: Aplicación de descuentos por consumos, ausencias, retardos y abonos a CxC**
@@ -563,9 +563,9 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Excel (cuadro de nómina): columnas específicas para clasificar descuentos por consumo, ausencias, retardos y abonos.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que la información de descuentos no esté completa o validada al momento del cierre del período (consumos pendientes, ausencias no confirmadas, retardos en revisión o estados de cuenta de CxC desactualizados). También pueden presentarse reclamos por parte de los trabajadores ante descuentos no reconocidos o diferencias en los montos aplicados.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Todos los descuentos del período deberían estar validados y consolidados oportunamente antes del cierre de nómina, permitiendo su aplicación correcta sin ajustes posteriores. El proceso ideal garantizaría claridad y trazabilidad en los descuentos aplicados, y el cruce de cuenta entre el sistema Poster y Odoo alimentaría directamente la CxC al trabajador.
         - **Propuesta 2.5.2:**
             - Pendiente.
 
@@ -628,7 +628,7 @@ Creado: 17 de marzo de 2026 10:31
             - Excel: registro y seguimiento manual de cuentas por cobrar por trabajador.
             - Odoo: referencia para validación de movimientos contables registrados.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que los movimientos que afectan las cuentas por cobrar (abonos, descuentos aplicados en nómina o nuevos anticipos) no sean registrados oportunamente, generando diferencias temporales en los saldos reflejados. También pueden presentarse inconsistencias entre la información registrada en Excel y los movimientos contables reflejados en Odoo.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que los estados de cuenta por cobrar de los trabajadores se gestionen directamente en Odoo, sin duplicación en Excel.
         - **Propuesta 2.4.2:**
@@ -665,7 +665,7 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué pasa cuando las cosas no salen normal?
             - Existen conceptos cuya clasificación como gravables o no gravables genera dudas; en esos casos se realiza la consulta correspondiente y se decide a criterio antes de incluirlos en el XML.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Los criterios sobre qué conceptos de remuneración son gravables para efectos de contribución DPP deberían estar claramente definidos y disponibles, eliminando dudas en el cálculo. Idealmente, Odoo permitiría descargar los datos de nómina predeterminados por quincena sin caracteres especiales que generen errores en el proceso.
     - **Propuesta 2.6.1:**
         - Pendiente.
     - **AS-IS 2.6.2: Elaboración mensual de hoja de trabajo para la contribución DPP**
@@ -692,9 +692,9 @@ Creado: 17 de marzo de 2026 10:31
         - ¿Qué sistemas o herramientas usan?
             - Excel: elaboración de la hoja de trabajo de contribución DPP.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Puede ocurrir que el cuadro de nómina no esté completamente validado al cierre del período, o que surjan dudas sobre la base de cálculo para la contribución DPP que requieran verificaciones adicionales.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La información de nómina debería estar cerrada, validada y disponible oportunamente para el proceso de contribución DPP. El proceso ideal permitiría descargar directamente desde Odoo el detalle de todas las remuneraciones del período sin necesidad de consolidación manual adicional.
         - **Propuesta 2.6.2:**
             - Pendiente.
 

@@ -1,6 +1,6 @@
 # AS - IS: Operaciones
 
-Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
+Procesado: 2026-05-25 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
 
 Creado: 24 de marzo de 2026 13:20
 

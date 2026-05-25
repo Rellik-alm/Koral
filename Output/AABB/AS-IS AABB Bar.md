@@ -1,4 +1,4 @@
-<!-- Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos. -->
+<!-- Procesado: 2026-05-25 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos. -->
 
 # AS - IS: Inventario: A y B (Bar)
 
@@ -25,9 +25,9 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué sistemas o herramientas usan?
             - WhatsApp (grupo): canal por el que recepción envía la lista de huéspedes al equipo de servicio.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si la lista no llega a tiempo al grupo de WhatsApp, el capitán de meseros debe comunicarse vía radio o ir personalmente a recepción para solicitar el reporte físico.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Integrar un sistema de gestión del hotel con una pantalla en el área de restaurante. En lugar de depender de un mensaje manual de WhatsApp que puede perderse entre otros chats, el equipo de servicio debería tener una pantalla de visualización en tiempo real que muestre el número de habitaciones ocupadas y el total de comensales, actualizado automáticamente cada vez que recepción hace un check-in.
     - Propuesta 1.1: Recepción de lista de huéspedes desde Grupo de WhatsApp
         - Pendiente.
 - TAREA 1.2: Mise en place de productos y materiales para la producción
@@ -44,8 +44,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Cómo se hace?
             - Paso 1: Se revisa la lista de huéspedes para determinar la cantidad de comensales.
             - Paso 2: Se verifica si el inventario estándar cubre la cantidad de comensales del día. El capitán maneja un estándar de inventario para hasta cincuenta personas; si la cantidad supera ese estándar, se saca del almacén lo adicional necesario.
-            - Paso 3: Se organiza y coloca todo lo necesario para atender esa cantidad de huéspedes.
-            - ⚠️ Pendiente validar en sesión próxima: detalle de qué materiales y productos específicos se alistan en el mise en place de servicio (vajilla, cubertería, cristalería, etc.).
+            - Paso 3: Se organiza y coloca todo lo necesario para atender esa cantidad de huéspedes: cristalería (vasos para jugo y agua, tazas de café con sus platos), vajilla (platos llanos, platos para cereal y frutas), cubertería (tenedores, cuchillos de mesa y cucharillas), lencería (mantelería limpia, caminos de mesa y servilletas), estación de bebidas (jugo, jarras de leche fría y caliente, termos de café) y menaje de mesa (saleros, pimenteros, azucareros y servilleteros llenos y limpios).
         - ¿Qué necesitan para hacer esta tarea?
             - Lista de huéspedes recibida de recepción. Stock disponible en el inventario estándar del área. Acceso al almacén para retirar producto adicional si la cantidad supera el estándar de cincuenta personas.
         - ¿Qué se genera al terminar?
@@ -55,7 +54,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si la cantidad de huéspedes supera el estándar de cincuenta personas: se retira del almacén el volumen adicional necesario para completar el mise en place.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un checklist de montaje estándar plastificado o digital para marcar cuando todo esté listo.
     - Propuesta 1.2: Mise en place de productos y materiales para la producción
         - Pendiente.
 - TAREA 1.3: Verificación de salón de restaurante (validar que esté en óptimas condiciones de higiene)
@@ -83,7 +82,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el salón no está limpio o no está en condiciones de higiene: se procede a la limpieza del área (Tarea 1.4).
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un checklist digital de inspección vía tablet que no sea solo visual, sino que incluya parámetros específicos como estado de la iluminación, funcionamiento del aire acondicionado y ventilación, y ausencia de olores.
     - Propuesta 1.3: Verificación de salón de restaurante
         - Pendiente.
 - TAREA 1.4: Limpieza de área de restaurante
@@ -98,18 +97,20 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Resultado de la verificación del salón (Tarea 1.3) que indica que el área no está en condiciones óptimas de higiene.
             - Frecuencia: Bajo demanda, cada vez que la verificación detecta que el salón requiere limpieza antes del servicio.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima: procedimiento específico de limpieza del salón, áreas que cubre, insumos utilizados.
+            - Paso 1: Limpieza de la superficie de las mesas, bases de las sillas, sacudido de migas en los asientos y barrido rápido de la zona de alto tráfico.
+            - Paso 2: Repaso de la barra.
+            - Paso 3: Se limpian los mesones, se alinean las sillas simétricamente y se verifica que el piso no tenga manchas de líquidos del turno anterior.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
-            - ⚠️ Pendiente validar en sesión próxima
+            - Escoba, haragán, mopa y balde para realizar la limpieza.
         - ¿Qué se genera al terminar?
             - Salón del restaurante limpio y en condiciones para recibir comensales.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Herramientas manuales de limpieza: mopa/coleto, paños y escoba.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el salón requiere una limpieza profunda que el equipo de servicio no puede resolver en 10 minutos, se escala como emergencia a Mantenimiento o Ama de Llaves vía radio, mientras se busca reubicar a los primeros huéspedes en un área alternativa del hotel.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Tener una estación de limpieza oculta (closet de servicio) cerca del salón con insumos ergonómicos para que el repaso sea más rápido y discreto ante la vista de los huéspedes.
     - Propuesta 1.4: Limpieza de área de restaurante
         - Pendiente.
 - TAREA 1.5: Verificación de productos a servir (Inventario de lo que se vaya a ofrecer en el desayuno)
@@ -126,17 +127,17 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Cómo se hace?
             - Paso 1: Se revisa cocina para verificar que tenga todos los productos a ofrecer en el desayuno.
             - Paso 2: Se verifica que haya cantidad suficiente de cada ítem (café, jugos, empanadas, casones, mechada, molida y demás preparaciones del desayuno incluido).
-            - ⚠️ Pendiente validar en sesión próxima: qué ocurre si se detectan faltantes en esta verificación, si se activa algún proceso de requisición previo al servicio.
+            - Paso 3: Si se detecta que un producto falta o no alcanzará para todos los huéspedes, se activa una requisición de emergencia al almacén o se procede a la notificación de baja de menú.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso a cocina para verificar el estado de los productos disponibles.
         - ¿Qué se genera al terminar?
             - Confirmación de disponibilidad de todos los productos a servir en el desayuno.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Proceso manual. Se utiliza la lista de huéspedes (Tarea 1.1) como referencia para calcular mentalmente si las bandejas de comida son suficientes para el volumen de personas esperado.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - En caso de que la cocina informe que una preparación principal no quedó apta, el capitán debe coordinar con el cocinero de turno una alternativa rápida y ajustar la comunicación con los huéspedes para que el cambio se perciba como una "especialidad del día" y no como una falla.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un tablero de disponibilidad digital o físico en la entrada de la cocina donde cocina marque con un color (verde, amarillo, rojo) el estado de cada preparación. De este modo el servicio sabría qué productos están en estado crítico o agotados sin tener que interrumpir el flujo de los cocineros.
     - Propuesta 1.5: Verificación de productos a servir
         - Pendiente.
 - TAREA 1.6: Toma de pedido de huéspedes (toma de comandas)
@@ -217,9 +218,9 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué sistemas o herramientas usan?
             - WhatsApp: canal de verificación entre el equipo de servicio y cocina para confirmar que el pedido llegó completo. Confirmado en sesión kmmin002.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si cocina no confirma la recepción por WhatsApp en menos de 2 minutos, el mesonero debe dirigirse físicamente a la cocina para verificar el pedido. Si hay una caída de internet o falla la señal, se utiliza el radio o el vocaleo directo como respaldo.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de ticketing digital donde, al procesar el pedido en caja, este aparezca automáticamente en una pantalla táctil dentro de cocina con una alerta sonora. Cocina simplemente tocaría la pantalla para confirmar la recepción ("Aceptado").
     - Propuesta 1.8: Verificar que el pedido haya llegado completo a cocina
         - Pendiente.
 - TAREA 1.9: Preparación del pedido
@@ -234,17 +235,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Confirmación de que el pedido llegó completo a cocina (Tarea 1.8).
             - Frecuencia: Bajo demanda, cada vez que se procesa un pedido de huésped.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima: procedimiento específico de preparación del pedido en cocina.
+            - Paso 1: Se alistan los cubiertos adicionales, servilletas y salsas que requiera el pedido específico.
+            - Paso 2: Se llevan a la mesa los cafés, jugos o agua mientras sale el sólido para que el huésped no espere con la mesa vacía.
+            - Paso 3: El mesonero está pendiente de la zona de despacho para retirar el plato apenas esté listo, evitando que se enfríe.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido recibido completo en cocina. Productos e insumos disponibles y mise en place de cocina realizado.
         - ¿Qué se genera al terminar?
             - Pedido preparado y listo para ser entregado al comensal (Tarea 1.10).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de servicio y porta-comandas.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el mesonero nota que el pedido está tardando más de lo habitual, debe informar al huésped antes de que este se queje. Si cocina reporta un retraso mayor, el capitán interviene ofreciendo un refill de café o jugo por cortesía.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Un sistema de sensores en la zona de despacho de cocina que envíen una vibración al teléfono del mesonero asignado, permitiéndole estar atendiendo a otros huéspedes sin tener que asomarse constantemente a cocina.
     - Propuesta 1.9: Preparación del pedido
         - Pendiente.
 - TAREA 1.10: Entrega al comensal
@@ -259,17 +262,20 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Pedido preparado y listo en cocina (Tarea 1.9).
             - Frecuencia: Bajo demanda, cada vez que un pedido está listo para ser servido.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima: protocolo de servicio al mesa.
+            - Paso 1: El mesonero valida que el plato coincida con la comanda y que la presentación sea impecable.
+            - Paso 2: Se lleva el plato a la mesa de forma segura.
+            - Paso 3: Se aborda al huésped por la derecha.
+            - Paso 4: Se ofrece algún adicional inmediato (más café, picante, servilletas extra).
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido preparado por cocina.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - El huésped atendido. Operativamente, se genera la confirmación de entrega que permite al mesonero pasar a la fase de seguimiento y posterior cierre de la cuenta (Tarea 1.11).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de servicio, paños de servicio (litos) para protegerse del calor de los platos, y soportes para bandejas.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el plato llega frío, se retira de inmediato, se pide disculpas y se solicita a cocina que lo caliente o prepare de nuevo como prioridad. Si el pedido está equivocado, el mesonero no discute con el huésped; se retira el plato y se gestiona el cambio informando al capitán.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que al momento de entregar el plato o retirar los platos sucios, el mesonero cuente con un dispositivo de valoración rápida para que el huésped califique la experiencia con un solo toque antes de retirarse.
     - Propuesta 1.10: Entrega al comensal
         - Pendiente.
 - TAREA 1.11: Limpieza de área
@@ -284,17 +290,21 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Finalización del servicio de desayuno.
             - Frecuencia: Diaria, al cierre de cada servicio. El equipo indica que todas las fases se entregan con limpieza del área.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: Se retiran vajilla, cubertería y cristalería que queden en el salón y se llevan al área de lavado.
+            - Paso 2: Se limpian y recargan los dispensadores de jugo, jarras de leche y máquinas de café.
+            - Paso 3: Se desinfectan los mesones, estaciones de apoyo y la barra de despacho con multiusos.
+            - Paso 4: Se alinean sillas y mesas según el plano estándar del hotel.
+            - Paso 5: Se realiza un barrido rápido del salón para eliminar restos de pan o comida que hayan caído al piso durante el servicio.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
         - ¿Qué se genera al terminar?
             - Área limpia y lista para la siguiente fase (Fase 2: Organización, limpieza y preparación).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paños de microfibra, atomizadores con desinfectante y herramientas de barrido (escoba/mopa).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el volumen de comensales fue excepcional y el equipo no termina a tiempo antes del cambio de turno, el capitán solicita un refuerzo de limpieza o coordina con el turno entrante para que asuman parte del área. Si hay derrames de grasas o café en alfombras, se reporta a Ama de Llaves para limpieza profunda.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que el área de desbarase y limpieza cuente con una estación de pesaje para desperdicios que registre qué productos se están botando más, generando un reporte semanal al capitán y a cocina para ajustar el porcionamiento o el menú y reducir el desperdicio.
     - Propuesta 1.11: Limpieza de área
         - Pendiente.
 - TAREA 2.1: Limpieza de área de restaurante
@@ -309,15 +319,18 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Finalización del servicio de desayuno e inicio del período de baja afluencia de comensales (mayoría de huéspedes se van a la playa).
             - Frecuencia: Diaria, durante el período entre el desayuno y las actividades del mediodía (aproximadamente desde las 11:00 AM hasta las 3:00 PM / 4:00 PM).
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: Se realiza un fregado más detallado del piso, eliminando manchas de grasa o arena traída de la playa.
+            - Paso 2: Se limpian a fondo las patas de las sillas, las bases de las mesas y los bordes, que suelen acumular suciedad.
+            - Paso 3: Se aprovecha la luz natural para limpiar huellas y manchas en vidrios y espejos del salón.
+            - Paso 4: Se vacían y limpian profundamente los muebles auxiliares (aparadores) donde se guardan cubiertos y mantelería.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Un salón en estado impecable, listo para ser montado para el siguiente servicio o para mantener la imagen del hotel mientras los huéspedes transitan por las áreas comunes.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Escobas, mopas, litos y haraganes.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si se detecta una avería estructural (silla rota, mesa coja o filtración) durante la limpieza profunda, se genera una orden de trabajo inmediata a Mantenimiento.
         - ¿Cómo les gustaría que funcionara idealmente?
             - ⚠️ Pendiente validar en sesión próxima
     - Propuesta 2.1: Limpieza de área de restaurante
@@ -337,7 +350,8 @@ Creado: 30 de marzo de 2026 9:45
             - Paso 1: Se realiza el inventario de productos disponibles en el área.
             - Paso 2: Se procesan las frutas: se pesan, arreglan, empacan y guardan en la nevera.
             - Paso 3: Se organiza el área de barra y se completa el mise en place de suministros y materiales.
-            - ⚠️ Pendiente validar en sesión próxima: otros ítems específicos del mise en place, herramientas o formatos usados para el inventario.
+            - Paso 4: Mise en place de cristalería y cubertería: se realiza el pulido de copas y cubiertos con vapor de agua para eliminar marcas de agua.
+            - Paso 5: Se rellenan servilleteros, saleros, pimenteros y se organizan los sobres de azúcar y edulcorante.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso al área de barra, neveras y almacén de productos.
         - ¿Qué se genera al terminar?
@@ -347,7 +361,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si hay faltantes de productos: se activa el proceso de requisición a almacén (ver Fase 4).
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de inventario digital integrado con la base de datos del almacén central del hotel, de modo que el registro del inventario se actualice de forma inmediata al anotarlo, eliminando la libreta manual.
     - Propuesta 2.2: Inventario de productos y mise en place de suministros y materiales
         - Pendiente.
 - TAREA 2.3: Prevención de cualquier pedido de huéspedes
@@ -367,13 +381,13 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué necesitan para hacer esta tarea?
             - Área de servicio operativa. Personal disponible durante el turno.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Satisfacción del huésped atendido fuera de horario y registro de ventas adicionales. Al finalizar este período, se notifica al turno entrante las novedades del día.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Sistema de facturación (POS) activo, comunicación vía radio o WhatsApp con el personal de cocina, y la carta de almuerzos/snacks (reducida respecto al menú completo).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si llega un huésped mientras se está limpiando el área, no se le puede negar el acceso de forma brusca. El equipo mantiene una "zona de servicio inmediato" (una o dos mesas siempre limpias y operativas), y el mesonero escolta al huésped a esa zona segura mientras el resto termina la limpieza.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de pedidos por código QR desde las áreas sociales del hotel, de modo que el huésped pueda pedir su almuerzo desde cualquier lugar y el equipo de servicio reciba la alerta en una tablet con la hora de llegada estimada al salón o a la piscina.
     - Propuesta 2.3: Prevención de cualquier pedido de huéspedes
         - Pendiente.
 - TAREA 2.4: Toma de pedido de huéspedes (toma de comandas)
@@ -389,7 +403,9 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, esporádica. Se menciona que el almuerzo tiene muy poca salida.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.6: se anota el pedido manualmente en papel (comanda manual) para entregarlo a caja.
-            - ⚠️ Pendiente validar en sesión próxima: si existe alguna diferencia en el proceso de toma de pedido para el almuerzo respecto al desayuno.
+            - Se verifica con cocina si el plato del día o ciertos ingredientes están listos, dado que la cocina no opera a plena capacidad al mediodía.
+            - Al ser pedidos esporádicos, el mesonero prioriza ofrecer bebidas refrescantes o snacks de salida rápida para no detener las tareas de limpieza del resto del equipo.
+            - Se informa al huésped si el área donde desea sentarse está en proceso de limpieza.
         - ¿Qué necesitan para hacer esta tarea?
             - Papel y bolígrafo para anotar la comanda. Conocimiento del menú disponible para el almuerzo.
         - ¿Qué se genera al terminar?
@@ -415,7 +431,7 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, esporádica durante el período de organización.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.7.
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero debe interrumpir su labor para caminar hasta la estación de caja, entregar el papel, esperar que el cajero deje su tarea administrativa, digite el pedido y confirme a cocina antes de regresar al salón.
         - ¿Qué necesitan para hacer esta tarea?
             - Comanda manual con el pedido. Sistema de caja operativo.
         - ¿Qué se genera al terminar?
@@ -441,17 +457,17 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, esporádica.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.8.
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero se traslada físicamente al área de despacho de cocina, revisa que la comanda impresa por la comandera coincida exactamente con lo que el huésped pidió, y "canta" el pedido en voz alta al cocinero de guardia para asegurarse de que fue escuchado y aceptado.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima
+            - La copia de la comanda manual (para comparar) y acceso despejado a la zona de comunicación con cocina.
         - ¿Qué se genera al terminar?
             - Confirmación de que el pedido completo está en cocina.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Comandera térmica (impresora de caja) y, en ocasiones, el grupo de WhatsApp operativo del hotel para avisar que el pedido fue enviado.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si la comanda no sale por falta de papel o falla de red, el mesonero entrega su copia manual directamente al cocinero. Si el cocinero informa que falta un ingrediente, el mesonero regresa de inmediato a la mesa para ofrecer una alternativa.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un monitor de confirmación digital donde el cocinero toque el pedido en pantalla para marcarlo como "En preparación", enviando una notificación a la tablet del mesonero sin necesidad de que este entre a cocina a verificar.
     - Propuesta 2.6: Verificar que el pedido haya llegado completo a cocina
         - Pendiente.
 - TAREA 2.7: Preparación del pedido
@@ -466,17 +482,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Confirmación de que el pedido llegó completo a cocina (Tarea 2.6).
             - Frecuencia: Bajo demanda, esporádica.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: El mesonero ofrece una bebida de cortesía o sugiere un snack rápido si detecta que la cocina tardará más por estar en labores de mise en place.
+            - Paso 2: Se alistan los cubiertos específicos o salsas adicionales para el montaje de mesa.
+            - Paso 3: Se monitorea que el plato salga en el tiempo estándar (normalmente 15-20 min), informando al huésped sobre el progreso.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido recibido completo en cocina. Productos e insumos disponibles.
         - ¿Qué se genera al terminar?
             - Pedido preparado y listo para ser entregado al comensal (Tarea 2.8).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de servicio y canal de comunicación directa con el cocinero.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si al momento de cocinar se detecta que un ingrediente está agotado, el mesonero interviene de inmediato para ofrecer un cambio de plato de manera profesional.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Contar con un temporizador de comandas inteligente que active una cuenta regresiva visible tanto en cocina como en la tablet del mesonero; si el tiempo supera los 15 minutos, el sistema envía una alerta automática al capitán para agilizar el despacho.
     - Propuesta 2.7: Preparación del pedido
         - Pendiente.
 - TAREA 2.8: Entrega al comensal
@@ -491,17 +509,20 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Pedido preparado y listo en cocina (Tarea 2.7).
             - Frecuencia: Bajo demanda, esporádica.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: El mesonero verifica que el plato de almuerzo tenga la guarnición correcta y la temperatura adecuada.
+            - Paso 2: Antes de colocar el plato, se retira cualquier material de limpieza o papelería que se estuviera usando en las mesas contiguas.
+            - Paso 3: Se asegura de que el comensal tenga su bebida servida antes de que llegue el sólido.
+            - Paso 4: Se sirve por la derecha, anunciando el plato y preguntando si desea algún aderezo.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido preparado por cocina.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - El huésped satisfecho en consumo. Operativamente, se activa el seguimiento para el cierre de cuenta y el posterior regreso del equipo a sus tareas de organización.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de servicio y paños (litos) limpios para platos calientes.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Al ser un turno con menos personal, si hay un error, el mesonero ofrece una entrada rápida de cortesía mientras cocina corrige el plato principal, evitando que el huésped se desespere.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de aviso al móvil del huésped para cuando el pedido está siendo servido, de modo que el huésped llegue justo a tiempo desde la playa o piscina y el mesonero no tenga el plato enfriándose.
     - Propuesta 2.8: Entrega al comensal
         - Pendiente.
 - TAREA 2.9: Limpieza de área
@@ -516,17 +537,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Finalización de las actividades de organización del período entre servicios, previo a la entrega de guardia.
             - Frecuencia: Diaria, al cierre del turno de la mañana (alrededor de las 3:00 PM – 4:00 PM). El equipo indica que todas las fases se cierran con limpieza.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: Se limpian las huellas dactilares de vidrios, vitrinas y superficies de acero inoxidable de la barra que se hayan ensuciado durante el período de organización.
+            - Paso 2: Se vacían los botes de basura generados durante el procesamiento de frutas y limpieza de materiales.
+            - Paso 3: Se realiza un repaso rápido en las zonas de mayor tránsito para eliminar cualquier rastro de arena o humedad del mediodía.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
         - ¿Qué se genera al terminar?
             - Área limpia y lista para la entrega de guardia al turno de la tarde.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Litos de colores diferenciados (ej. azul para mesas, rojo para baños), mopas de secado rápido y atomizadores con soluciones sanitizantes.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el servicio de almuerzos esporádicos se extendió hasta las 4:00 PM, el equipo prioriza la limpieza del área de comensales. Si no se puede completar la limpieza profunda, el capitán de la mañana habla con el capitán de la tarde y registra en el cuaderno de novedades el compromiso de terminar la tarea en conjunto.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de checklist digital para registrar las actividades de limpieza de cada turno.
     - Propuesta 2.9: Limpieza de área
         - Pendiente.
 - TAREA 2.10: Entrega de Guardia de Turno
@@ -543,17 +566,17 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Cómo se hace?
             - Paso 1: El capitán del turno de la mañana informa al del turno de la tarde sobre el estado general del área.
             - Paso 2: Se comunican los pendientes: si hay frutas por procesar, faltantes de productos, tareas sin completar u otras situaciones relevantes.
-            - ⚠️ Pendiente validar en sesión próxima: si existe algún formato o registro escrito de la entrega de guardia, o si se hace de forma verbal.
+            - La entrega es predominantemente verbal, apoyada en anotaciones informales en la "Libreta de Faltantes" o mensajes de WhatsApp. No existe un formato de acta formal de entrega, lo que a veces causa que detalles importantes (como una queja de un huésped o una falla técnica leve) se olviden en el cambio de turno.
         - ¿Qué necesitan para hacer esta tarea?
             - Área limpia y organizada (resultado de la Tarea 2.9). Inventario actualizado del turno de la mañana.
         - ¿Qué se genera al terminar?
             - Turno de la tarde informado y listo para iniciar la Fase 3 (Snacks/Cena).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Cuaderno de novedades (físico), grupos de WhatsApp operativos y el reporte de ventas del sistema de caja (Z-report parcial) para verificar qué se consumió al mediodía.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el turno entrante detecta faltantes no informados, se realiza un conteo rápido conjunto en ese momento. El capitán saliente explica la razón de la omisión y, si el almacén ya está cerrado, se coordina una solicitud de emergencia con el gerente de guardia o un préstamo de otra área del hotel.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un libro digital (bitácora en la nube) donde se pueda marcar el check a las tareas completadas y dejar notas de los pendientes, de modo que el capitán de la tarde pueda leer el reporte al llegar a su turno.
     - Propuesta 2.10: Entrega de Guardia de Turno
         - Pendiente.
 - TAREA 3.1: Mise en place de productos y materiales para la producción
@@ -571,17 +594,18 @@ Creado: 30 de marzo de 2026 9:45
             - Paso 1: El turno de la tarde recibe la información de la entrega de guardia sobre pendientes y estado del área.
             - Paso 2: Se verifica qué está pendiente de procesar o completar (frutas, mise en place, faltantes).
             - Paso 3: Se organiza todo lo necesario para el servicio de snacks y cena.
-            - ⚠️ Pendiente validar en sesión próxima: detalle de qué materiales y productos específicos se alistan, si se hace algún recorrido por las mesas de la piscina u otras áreas externas al inicio del turno.
+            - Paso 4: Se realiza un recorrido por el área de la piscina para recoger cristalería o platos que hayan quedado del mediodía y verificar que las estaciones de servicio externas estén limpias.
+            - Paso 5: Se preparan guarniciones para coctelería (limones, aceitunas, menta) y se verifica el stock de licores y cristalería fina.
         - ¿Qué necesitan para hacer esta tarea?
             - Información de la entrega de guardia del turno de la mañana. Stock disponible en el área.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Un área operativa al 100%: restaurante listo para recibir el flujo de la cena, con todas las estaciones de apoyo reabastecidas y el personal consciente de los platos no disponibles por faltantes.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de transporte, cristalería, frutas porcionadas, paños de pulido y conteo de licores.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si hay faltantes de productos: se activa el proceso de requisición a almacén (ver Fase 4).
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de preparación dinámica vinculado al sistema de reservas y recepción del hotel, de modo que al iniciar el turno a las 3:00 PM el sistema muestre una lista de tareas priorizada con información sobre cantidad de huéspedes, restricciones alimentarias y eventos especiales del día.
     - Propuesta 3.1: Mise en place de productos y materiales para la producción
         - Pendiente.
 - TAREA 3.2: Verificación de salón de restaurante (validar que esté en óptimas condiciones de higiene)
@@ -600,15 +624,15 @@ Creado: 30 de marzo de 2026 9:45
             - Paso 2: Verifica el estado de las mesas de la piscina y otras áreas de servicio externas.
             - Paso 3: Si detecta algún detalle o área que requiere limpieza, activa la Tarea 3.3.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Checklist de limpieza y coordinación entre el personal de servicio.
         - ¿Qué se genera al terminar?
             - Confirmación del estado del salón y áreas de servicio. Si hay detalle pendiente, se activa la Tarea 3.3.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Proceso visual por recorrido físico. Actualmente no se usa sistema digital.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si algún área no está en condiciones: se procede a la limpieza del área (Tarea 3.3).
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un checklist digital donde estén todos los ítems para verificar la limpieza.
     - Propuesta 3.2: Verificación de salón de restaurante
         - Pendiente.
 - TAREA 3.3: Limpieza de área de restaurante
@@ -623,17 +647,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Resultado de la verificación del salón (Tarea 3.2) que indica que algún área requiere limpieza.
             - Frecuencia: Bajo demanda, cada vez que la verificación detecta la necesidad.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: Se repasan las mesas con un paño seco para eliminar polvo acumulado desde la mañana.
+            - Paso 2: Se realiza el pulido final de las copas expuestas para asegurar que no tengan marcas de dedos bajo la luz artificial.
+            - Paso 3: Se limpian las superficies de las mesas de exteriores que puedan tener residuos de protector solar o salitre de la tarde.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
         - ¿Qué se genera al terminar?
             - Área de servicio limpia y lista para el servicio de snacks y cena.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Litos de limpieza.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si un huésped que aún está en la piscina derrama una bebida justo cuando el área ya fue verificada, el equipo aplica la limpieza rápida para no retrasar el inicio de la cena.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un carrito de limpieza fijo por el área del restaurante para agilizar la limpieza en momentos de emergencia.
     - Propuesta 3.3: Limpieza de área de restaurante
         - Pendiente.
 - TAREA 3.4: Verificación de productos a servir (Inventario de lo que se vaya a ofrecer en la Cena)
@@ -648,17 +674,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Área verificada y limpia al inicio del turno de la tarde.
             - Frecuencia: Diaria, al inicio del turno de la tarde.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Paso 1: El capitán se reúne con el cocinero de turno para identificar qué platos del menú no se podrán ofrecer por falta de insumos.
+            - Paso 2: Se chequea la temperatura de los vinos y el stock de licores, mixers y cristalería específica para coctelería nocturna.
+            - Paso 3: Se asegura de que haya suficiente café, azúcar y leche, que son los productos de mayor rotación al cierre de la cena.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso al área de servicio y almacén de productos.
         - ¿Qué se genera al terminar?
             - Confirmación de disponibilidad de productos para el servicio de snacks y cena. Si hay faltantes, se activa el proceso de requisición (Fase 4).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Inventario de barra y comunicación directa vía radio o verbal con el área de cocina y almacén.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si hay faltantes: se gestiona la requisición a almacén (ver Fase 4).
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un menú digital interconectado donde, cuando la cocina use la última porción de un ingrediente, el sistema actualice automáticamente el menú en las tablets de los mesoneros y en los códigos QR de las mesas, marcando el plato como "Agotado".
     - Propuesta 3.4: Verificación de productos a servir
         - Pendiente.
 - TAREA 3.5: Toma de pedido de huéspedes (toma de comandas)
@@ -674,7 +702,8 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, durante el turno de la tarde (3:00 PM – 11:00 PM). La cena tiene mayor afluencia que el almuerzo.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.6: se anota el pedido manualmente en papel (comanda manual) para entregarlo a caja.
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero informa al comensal si hay platos que requieren más tiempo de preparación.
+            - Al haber platos más elaborados, se pregunta activamente por restricciones alimentarias, anotándolas en grande en la comanda manual para evitar riesgos de salud.
         - ¿Qué necesitan para hacer esta tarea?
             - Papel y bolígrafo para anotar la comanda. Conocimiento del menú de snacks y cena disponible.
         - ¿Qué se genera al terminar?
@@ -700,7 +729,7 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, durante el turno de la tarde.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.7.
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero debe esperar su turno si otros compañeros están entregando comandas o si el cajero está procesando pagos de huéspedes que se retiran.
         - ¿Qué necesitan para hacer esta tarea?
             - Comanda manual con el pedido. Sistema de caja operativo.
         - ¿Qué se genera al terminar?
@@ -726,17 +755,17 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, durante el turno de la tarde.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 1.8.
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero se dirige a la zona de cocina, verifica que la comanda impresa por la impresora de caja tenga todos los platos de su comanda manual, y se comunica con el jefe de cocina o el responsable de despacho para confirmar que se entendieron las especificaciones.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima
+            - La copia de la comanda manual como respaldo y la comanda impresa por el sistema de caja.
         - ¿Qué se genera al terminar?
             - Confirmación de que el pedido completo está en cocina.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Impresora de comandas de cocina, tablero de "chuzos" (donde se pinchan las comandas listas) y comunicación verbal directa.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si la impresora se queda sin papel y el pedido no aparece, el mesonero entrega su copia manual físicamente al cocinero. Si el cocinero informa que falta un ingrediente que no se reportó en el inventario de la mañana, el mesonero regresa de inmediato a la mesa para ofrecer una alternativa.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de confirmación de lectura donde el cocinero toque el pedido en pantalla para marcarlo como "En Preparación", enviando un mensaje a la tablet del mesonero sin necesidad de que este entre a cocina.
     - Propuesta 3.7: Verificar que el pedido haya llegado completo a cocina
         - Pendiente.
 - TAREA 3.8: Preparación del pedido
@@ -751,17 +780,19 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Confirmación de que el pedido llegó completo a cocina (Tarea 3.7).
             - Frecuencia: Bajo demanda, durante el turno de la tarde.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - El jefe de cocina organiza las comandas según el tiempo de cocción.
+            - Se sigue la ficha técnica del plato para garantizar que la presentación sea idéntica en cada servicio.
+            - Los platos se colocan bajo lámparas de calor mientras se completa el resto de la orden de la mesa.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido recibido completo en cocina. Productos e insumos disponibles y mise en place realizado.
         - ¿Qué se genera al terminar?
             - Pedido preparado y listo para entregarlo al comensal (Tarea 3.9).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandeja de servicio lista en el área de despacho y lito (paño de servicio) limpio para cargar platos calientes.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el mesonero nota que la cocina está colapsada, se dirige a la mesa antes de que el cliente se queje, informa con tacto que el plato está en el toque final y puede ofrecer un detalle (refill de agua o pan) para reducir la ansiedad del huésped.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Un monitor de progreso para el mesonero con una barra de progreso visible por mesa (ej. "Mesa 5: 60% preparado"), de modo que el equipo de servicio sepa exactamente cuándo acercarse al pass a recoger la comida caliente.
     - Propuesta 3.8: Preparación del pedido
         - Pendiente.
 - TAREA 3.9: Entrega al comensal
@@ -776,17 +807,20 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Pedido preparado y listo en cocina (Tarea 3.8).
             - Frecuencia: Bajo demanda, durante el turno de la tarde.
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - El mesonero limpia cualquier gota de salsa en el borde del plato antes de cargarlo.
+            - Se usan bandejas (para snacks/bebidas) o se cargan los platos con la técnica de los tres dedos, usando siempre el lito para no quemarse.
+            - Se sirve primero a las damas o niños.
+            - Inmediatamente después de servir la comida, se verifica si el cliente desea otra copa de vino o bebida para acompañar el plato fuerte.
         - ¿Qué necesitan para hacer esta tarea?
             - Pedido preparado por cocina.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - El inicio de la experiencia de consumo. Operativamente, se genera el registro de plato entregado para estar pendiente de cuándo retirar el plato.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Bandejas de servicio, lito (paño de servicio) y el sistema de facturación para marcar que el servicio está en curso.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si se derrama algo antes de llegar a la mesa, se informa al cliente, se limpia el área de inmediato y se solicita a cocina que reponga el plato con prioridad de emergencia.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Colocar un sistema automático que avise al mesonero cuando el plato está listo para la entrega.
     - Propuesta 3.9: Entrega al comensal
         - Pendiente.
 - TAREA 3.10: Limpieza de área
@@ -801,15 +835,18 @@ Creado: 30 de marzo de 2026 9:45
             - Disparador: Finalización del servicio de cena y cierre del turno de la noche.
             - Frecuencia: Diaria, al cierre del turno de la tarde/noche (hasta las 11:00 PM).
         - ¿Cómo se hace?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se limpian a fondo los aparadores, la barra y las máquinas de café, asegurando que no queden residuos orgánicos que atraigan plagas durante la madrugada.
+            - Se realiza una limpieza de pisos en todo el salón y el área de la piscina, usando desinfectantes.
+            - Se vacían todos los botes de basura y se trasladan al depósito central del hotel.
+            - Se verifica que luces, aires acondicionados y equipos de música queden apagados o en modo ahorro.
         - ¿Qué necesitan para hacer esta tarea?
             - Insumos de limpieza disponibles en el área.
         - ¿Qué se genera al terminar?
             - Área limpia lista para la entrega de guardia y para que el turno de la mañana siguiente la reciba en condiciones.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Escobas, mopa, litos y productos de limpieza.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si una mesa se queda después de las 11:00 PM, la limpieza debe empezar por las zonas ya desocupadas para no molestar a los huéspedes, lo que retrasa la salida del personal.
         - ¿Cómo les gustaría que funcionara idealmente?
             - ⚠️ Pendiente validar en sesión próxima
     - Propuesta 3.10: Limpieza de área
@@ -828,15 +865,15 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Cómo se hace?
             - Paso 1: Al final del turno de la noche, se realiza el inventario final del área.
             - Paso 2: Se deja el inventario documentado para que el turno de la mañana siguiente lo reciba y verifique el estado en que quedó.
-            - ⚠️ Pendiente validar en sesión próxima: formato o herramienta usada para registrar el inventario de cierre, canal de comunicación entre turnos (verbal, escrito, sistema).
+            - El inventario se registra en el libro de novedades al final del turno de la noche, quedando documentado para que el turno de la mañana siguiente lo reciba y verifique.
         - ¿Qué necesitan para hacer esta tarea?
-            - Área limpia (resultado de la Tarea 3.10). ⚠️ Pendiente validar en sesión próxima: formato de inventario de cierre.
+            - Área limpia (resultado de la Tarea 3.10).
         - ¿Qué se genera al terminar?
             - Inventario de cierre documentado y disponible para el turno de la mañana siguiente.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Libro de novedades (físico).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si al cerrar la noche faltan botellas o insumos que no coinciden con las ventas, el capitán debe revisar las comandas manuales de todo el día para encontrar el error antes de retirarse.
         - ¿Cómo les gustaría que funcionara idealmente?
             - El equipo indica que anteriormente contaban con un programa en computadora donde quedaban plasmados los inventarios, solicitudes de suministros y otros procesos operativos, y que les gustaría retomar ese nivel de digitalización para reducir el papeleo.
     - Propuesta 3.11: Entrega de Guardia de Turno
@@ -855,7 +892,6 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Cómo se hace?
             - Paso 1: Se revisa el inventario disponible en el área.
             - Paso 2: Se identifican los suministros y materiales faltantes o insuficientes para cubrir la demanda del servicio.
-            - ⚠️ Pendiente validar en sesión próxima: formato o herramienta para el registro del inventario del área de bebidas/servicio.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso al área de almacenamiento de suministros del departamento de bebidas/servicio.
         - ¿Qué se genera al terminar?
@@ -863,7 +899,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué sistemas o herramientas usan?
             - Manual: el inventario se realiza de forma manual. El equipo menciona que anteriormente existía un programa de computadora que registraba inventarios y solicitudes de suministros, pero que ya no está en uso.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si el inventario se realiza tarde y llega un grupo mayor al estándar de cincuenta personas, el área puede quedarse sin productos básicos (servilletas, azúcar) en medio del servicio.
         - ¿Cómo les gustaría que funcionara idealmente?
             - El equipo expresa que les gustaría retomar el nivel de digitalización que tenían anteriormente, donde los inventarios y solicitudes de suministros quedaban registrados en un programa de computadora, reduciendo el papeleo del proceso actual.
     - Propuesta 4.1: Inventario diario/manual en el almacén de cocina
@@ -881,7 +917,6 @@ Creado: 30 de marzo de 2026 9:45
             - Frecuencia: Bajo demanda, según el consumo y los faltantes detectados.
         - ¿Cómo se hace?
             - Mismo proceso que la Tarea 4.2 del área de cocina: se toma el formato físico de requisiciones y se anota cada suministro o material faltante con su cantidad requerida.
-            - ⚠️ Pendiente validar en sesión próxima: si el formato de bebidas/servicio es el mismo que el de cocina o si es distinto.
         - ¿Qué necesitan para hacer esta tarea?
             - Lista de faltantes del inventario. Formato físico de requisiciones.
         - ¿Qué se genera al terminar?
@@ -889,7 +924,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué sistemas o herramientas usan?
             - Formato físico de requisiciones: documento manual donde se registran los productos solicitados.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si no se especifica la presentación exacta del producto (ej. litro o lata), almacén puede despachar el producto equivocado, retrasando la operación. Si se agotan las hojas físicas de requisición, el proceso se improvisa en hojas blancas, perdiendo validez ante auditoría.
         - ¿Cómo les gustaría que funcionara idealmente?
             - El equipo indica que idealmente la solicitud de suministros debería hacerse directamente desde un sistema (computadora), sin necesidad de papeleo manual. Anteriormente contaban con un programa que permitía hacer el pedido en la computadora y este llegaba directamente a almacén con su respectivo inventario.
     - Propuesta 4.2: Relleno de formato de requisiciones (lista de lo que falta)
@@ -916,7 +951,7 @@ Creado: 30 de marzo de 2026 9:45
         - ¿Qué sistemas o herramientas usan?
             - Formato físico de requisiciones: documento que circula para recabar la firma de autorización.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si la Gerente de Operaciones está en reunión, fuera del hotel o atendiendo una emergencia, el capitán no puede obtener la firma y el pedido queda estancado, pudiendo causar un faltante en el servicio. Al ser un papel físico que viaja entre áreas, puede traspapelarse en la oficina de gerencia, obligando a repetir el conteo y el llenado desde cero.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Misma oportunidad de mejora que la Tarea 4.2: que el pedido pueda enviarse directamente desde el sistema al almacén, eliminando el proceso de búsqueda de firma física.
     - Propuesta 4.3: Solicitud de firma de formato de requisición a Gerencia de Operaciones / Jefe de área
@@ -964,17 +999,17 @@ Creado: 30 de marzo de 2026 9:45
             - Paso 1: Almacén detecta que no tiene el producto solicitado.
             - Paso 2: Almacén gestiona la solicitud de compra con el departamento de compras o administración.
             - Paso 3: El producto queda en lista de espera hasta que llegue la compra.
-            - ⚠️ Pendiente validar en sesión próxima: canal específico de la solicitud de compra, quién la autoriza, tiempos de respuesta.
+            - Paso 3: El producto queda en lista de espera hasta que llegue la compra.
         - ¿Qué necesitan para hacer esta tarea?
             - Formato de requisiciones con los productos faltantes identificados.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Una orden de compra o solicitud formal al departamento de Compras. Para el equipo de servicio, se genera una notificación de pendiente que obliga al capitán a buscar un sustituto o informar a cocina que ese producto no llegará en el día.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Libro de novedades o comunicación vía WhatsApp con el comprador del hotel. No existe sistema formal que notifique al capitán cuando el producto no está disponible hasta que llega físicamente al mostrador de almacén.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Si almacén intenta comprar pero el proveedor no tiene el producto, el servicio debe cambiar la oferta del menú de inmediato.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Implementar un sistema de alerta de stock de seguridad donde el sistema detecte que almacén se está quedando sin un producto antes de que el capitán lo pida, generando la solicitud de compra automáticamente al llegar al mínimo para que el producto siempre esté disponible cuando se haga la requisición.
     - Propuesta 4.5: Solicitud de compra cuando almacén no tiene el producto
         - Pendiente.
 
