@@ -1,6 +1,6 @@
 # AS - IS: Asesor Contraloria
 
-Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
+Procesado: 2026-05-25 — Campos pendientes completados con respuestas de sesión de validación.
 
 Creado: 17 de marzo de 2026 12:51
 
@@ -14,10 +14,10 @@ Creado: 17 de marzo de 2026 12:51
             - Responsable: Gerente de Contraloría (Meche).
             - Nota: el departamento de Contraloría no está activo actualmente; la responsable está ejecutando actividades de soporte al área administrativa en lugar de esta tarea.
         - ¿Cuándo se hace?
-            - Disparador: ⚠️ Pendiente validar en sesión próxima
+            - Disparador: Al cierre de cada mes.
             - Frecuencia: Debería hacerse con frecuencia, atada a un plan de trabajo. Actualmente no se ejecuta.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima (no hay flujo definido actualmente; el proceso no se lleva).
+            - Paso 1: A través de un plan de trabajo del departamento. (No hay flujo definido actualmente; el proceso no se lleva.)
         - ¿Qué necesitan para hacer esta tarea?
             - Plan de trabajo del departamento (no existe actualmente).
             - Cierres mensuales contables, administrativos y operativos de todos los departamentos (no se realizan actualmente).
@@ -28,7 +28,7 @@ Creado: 17 de marzo de 2026 12:51
             - Odoo: descarga de reportes de saldos, movimientos y cuentas contables y de almacén.
             - Word: elaboración del informe de resultados.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se notifica a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que exista un plan de trabajo que defina la frecuencia y metodología de supervisión.
             - Que se ejecuten cierres mensuales en todos los departamentos para que los reportes descargados sean confiables.
@@ -53,12 +53,12 @@ Creado: 17 de marzo de 2026 12:51
             - Disparador: Disponibilidad de cierres mensuales de todos los departamentos (condición que actualmente no se cumple).
             - Frecuencia: Debería ser mensual. Actualmente no se ejecuta.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima (no hay flujo definido; el proceso no se lleva actualmente).
+            - Paso 1: A través de un plan de trabajo que ejecuta Contraloría. (No hay flujo definido; el proceso no se lleva actualmente.)
         - ¿Qué necesitan para hacer esta tarea?
             - Cierres mensuales contables, administrativos y operativos de todos los departamentos.
             - Reportes de saldos y movimientos descargados desde Odoo (actualmente no son confiables).
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Reporte a la Gerencia General.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: descarga de reportes de saldos, movimientos y cuentas contables y de almacén.
         - ¿Qué pasa cuando las cosas no salen normal?
@@ -121,23 +121,23 @@ Creado: 17 de marzo de 2026 12:51
             - Frecuencia: Debería ser mensual. Actualmente no se ejecuta.
         - ¿Cómo se hace?
             - Paso 1: Con base en el análisis mensual, redactar el informe de resultados en Word.
-            - Paso 2: ⚠️ Pendiente validar en sesión próxima (canal y destinatario de entrega no fueron confirmados en la sesión más allá de "gerencia").
+            - Paso 2: Enviar el informe por correo electrónico corporativo a la Gerencia General.
         - ¿Qué necesitan para hacer esta tarea?
             - Resultados del análisis mensual de estados financieros (TAREA.1.3).
         - ¿Qué se genera al terminar?
-            - Informe de resultados en Word. Destinatario: gerencia. Canal de entrega: ⚠️ Pendiente validar en sesión próxima.
+            - Informe de resultados en Word. Destinatario: Gerencia General. Canal de entrega: correo electrónico corporativo.
         - ¿Qué sistemas o herramientas usan?
             - Word: redacción del informe.
         - ¿Qué pasa cuando las cosas no salen normal?
             - La responsable mencionó que los informes "no los leen igual, pero igual los hago", lo que indica que el informe se elabora pero no siempre tiene el impacto esperado a nivel gerencial.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que los informes sean leídos y exista retroalimentación de la gerencia, acompañada de un plan de acción conjunto.
     - Propuesta 1.4: Elaboración de informe de resultados para gerencia
         - Pendiente.
 
 ---
 
-- TAREA.2.1 — Elaboración del plan de trabajo del departamento de Contraloría ⚠️ Pendiente validar en sesión próxima
+- TAREA.2.1 — Elaboración del plan de trabajo del departamento de Contraloría (en desarrollo)
     - AS-IS 2.1: Elaboración del plan de trabajo del departamento de Contraloría
         - ¿Qué es esta tarea?
             - Elaboración del plan de trabajo formal del departamento de Contraloría, que defina las actividades, frecuencias y responsables de las funciones del área.
@@ -150,15 +150,15 @@ Creado: 17 de marzo de 2026 12:51
             - Frecuencia: Tarea única de arranque; no recurrente en su fase inicial.
         - ¿Cómo se hace?
             - Paso 1: La responsable está documentando las actividades en papel como punto de partida.
-            - Paso 2: ⚠️ Pendiente validar en sesión próxima
+            - Paso 2: En desarrollo; flujo de formalización y distribución aún no definido.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Planificación formal del área.
         - ¿Qué se genera al terminar?
-            - Plan de trabajo documentado del departamento. Formato y canal de distribución: ⚠️ Pendiente validar en sesión próxima.
+            - Plan de trabajo documentado del departamento. Formato y canal de distribución: en desarrollo.
         - ¿Qué sistemas o herramientas usan?
-            - Actualmente: papel. Sistema o herramienta definitiva: ⚠️ Pendiente validar en sesión próxima.
+            - Actualmente: papel. Sistema o herramienta definitiva: Microsoft Office y correo electrónico.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se informa a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que el plan de trabajo esté formalizado y permita arrancar con las entrevistas mensuales a departamentos y la ejecución de las funciones propias de Contraloría.
     - Propuesta 2.1: Elaboración del plan de trabajo del departamento de Contraloría
@@ -179,14 +179,14 @@ Creado: 17 de marzo de 2026 12:51
             - Disparador: Disponibilidad del análisis mensual de estados financieros (TAREA.1.3) y de los resultados de las entrevistas a departamentos (TAREA.2.3) (fuente: transcript sesión 1 — "al hacer eso, en el análisis mensual, voy a tener un resultado").
             - Frecuencia: Debería ser mensual, vinculada al análisis de resultados. Actualmente no se ejecuta.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima (no hay flujo definido actualmente; el proceso no está activo).
+            - Paso 1: En desarrollo; no hay flujo definido actualmente porque el proceso no está activo.
         - ¿Qué necesitan para hacer esta tarea?
             - Resultados de las entrevistas a departamentos (TAREA.2.3).
             - Análisis mensual de estados financieros (TAREA.1.3).
         - ¿Qué se genera al terminar?
             - Recomendaciones a gerencia sobre correcciones necesarias. Incluidas en el informe mensual de resultados (TAREA.1.4).
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima (no se especificó herramienta; el proceso no está activo).
+            - Microsoft Office.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Ejemplo mencionado: si se detecta que no se pagaron los parafiscales (IVSS), se evalúa si aún se está en fecha para corregirlo sin multa; si no, se asume la consecuencia y se hacen las correcciones.
         - ¿Cómo les gustaría que funcionara idealmente?
@@ -196,7 +196,7 @@ Creado: 17 de marzo de 2026 12:51
 
 ---
 
-- TAREA.2.3 — Ejecución de entrevistas/cuestionarios periódicos a departamentos para validación de resultados de gestión ⚠️ Pendiente validar en sesión próxima
+- TAREA.2.3 — Ejecución de entrevistas/cuestionarios periódicos a departamentos para validación de resultados de gestión (en desarrollo)
     - AS-IS 2.3: Ejecución de entrevistas/cuestionarios periódicos a departamentos
         - ¿Qué es esta tarea?
             - Aplicación de cuestionarios o entrevistas periódicas a cada departamento para validar si ejecutaron sus cierres, cumplieron sus obligaciones y están generando los resultados esperados.
@@ -211,7 +211,7 @@ Creado: 17 de marzo de 2026 12:51
         - ¿Cómo se hace?
             - Paso 1: La responsable contacta a cada departamento para preguntar sobre el estado de sus obligaciones (ejemplo: ¿está listo el cierre? ¿La cartelera fiscal está al día? ¿Se pagó el seguro social?).
             - Paso 2: Registra las respuestas. Actualmente lo tiene planteado en Word.
-            - Paso 3: ⚠️ Pendiente validar en sesión próxima (qué se hace con las respuestas registradas antes de alimentar el análisis mensual).
+            - Paso 3: En desarrollo; el procesamiento de las respuestas registradas antes de alimentar el análisis mensual no está definido aún.
         - ¿Qué necesitan para hacer esta tarea?
             - Cuestionario o checklist definido por departamento (en construcción).
             - Plan de trabajo aprobado (TAREA.2.1).
@@ -221,7 +221,7 @@ Creado: 17 de marzo de 2026 12:51
             - Actualmente: Word para el cuestionario; comunicación por llamada, WhatsApp o en persona.
             - Herramienta ideal mencionada: módulo de Encuestas de Odoo 19, que permitiría armar cuestionarios personalizados por departamento y obtener resultados en tiempo real.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se informa a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que los cuestionarios se gestionen desde el módulo de Encuestas de Odoo 19, personalizados por departamento, con resultados en tiempo real y trazabilidad de las respuestas.
     - Propuesta 2.3: Ejecución de entrevistas/cuestionarios periódicos a departamentos
@@ -246,17 +246,17 @@ Creado: 17 de marzo de 2026 12:51
             - Paso 1: La responsable selecciona los productos a contar ese día y se los pasa a Victor Manuel Perez Carrizalez.
             - Paso 2: Victor Manuel Perez Carrizalez realiza el conteo físico manual en el almacén.
             - Paso 3: La responsable verifica en Odoo si la existencia registrada en sistema coincide con el conteo físico reportado por Victor Manuel Perez Carrizalez.
-            - Paso 4: ⚠️ Pendiente validar en sesión próxima (qué ocurre cuando hay diferencia entre conteo físico y sistema).
+            - Paso 4: Si existe diferencia entre el conteo físico y el sistema, se realiza el ajuste de inventario en Odoo y se notifica a la Gerencia General.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso a Odoo para consulta de existencias.
             - Disponibilidad de Victor Manuel Perez Carrizalez en almacén para realizar el conteo físico.
         - ¿Qué se genera al terminar?
-            - Registro actualizado de existencias por producto. Formato y destino del registro: ⚠️ Pendiente validar en sesión próxima.
+            - Registro actualizado de existencias por producto en Odoo. Formato y destino formal del registro: pendiente de definir.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: consulta y verificación de existencias en sistema.
             - Conteo manual: realizado por Victor Manuel Perez Carrizalez en almacén, sin sistema especificado.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se notifica a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que esta tarea sea asumida por Libny Carina Tarazon Gallegos (área administrativa del hotel) una vez que el inventario esté completamente depurado, liberando a Contraloría de esta responsabilidad operativa.
     - Propuesta 3.1: Coordinación de inventario cíclico diario con encargado de almacén
@@ -289,13 +289,13 @@ Creado: 17 de marzo de 2026 12:51
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si se detecta un error en los registros, se verifica con más profundidad el movimiento del producto para identificar la causa raíz.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - La responsable indica que esta es la única función que actualmente funciona bien. Las mejoras deseadas son: que el sistema emita el libro de Inventario Fiscal y del SENIAT, que las fotos de los productos sean de mayor tamaño, y que se pueda ver el historial de cambios en las fichas de los productos.
     - Propuesta 3.2: Verificación en sistema de existencias y movimientos de productos
         - Pendiente.
 
 ---
 
-- TAREA.3.3 — Depuración integral del inventario para entrega a responsable administrativo ⚠️ Pendiente validar en sesión próxima
+- TAREA.3.3 — Depuración integral del inventario para entrega a responsable administrativo (en desarrollo)
     - AS-IS 3.3: Depuración integral del inventario para entrega a responsable administrativo
         - ¿Qué es esta tarea?
             - Revisión del cien por ciento de los productos del inventario para sincronizar la existencia física con lo registrado en Odoo, dejando el sistema depurado y confiable para ser transferido al área administrativa.
@@ -318,7 +318,7 @@ Creado: 17 de marzo de 2026 12:51
             - Acceso a Odoo para verificación y corrección de existencias.
             - Disponibilidad de Victor Manuel Perez Carrizalez para los conteos físicos diarios.
         - ¿Qué se genera al terminar?
-            - Reporte de inventario depurado, entregado a presidencia. Formato: ⚠️ Pendiente validar en sesión próxima.
+            - Reporte de inventario depurado, entregado a presidencia. Formato: Excel.
             - Transferencia formal de la tarea de inventario cíclico a Libny Carina Tarazon Gallegos.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: verificación y corrección de existencias.
@@ -354,9 +354,9 @@ Creado: 17 de marzo de 2026 12:51
             - WhatsApp: comunicación con los departamentos.
             - Llamada telefónica o atención presencial.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se informa a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que las asesorías se realicen a través de reuniones programadas, en lugar de consultas informales por mensajería o llamada.
     - Propuesta 4.1: Asesoría estratégica a administración y talento humano
         - Pendiente.
 
@@ -378,7 +378,7 @@ Creado: 17 de marzo de 2026 12:51
             - Paso 1: Revisar documentos y papeles de trabajo para detectar registros errados.
             - Paso 2: Analizar la causa raíz del error ("irse a la raíz del problema").
             - Paso 3: Enviar la información al asesor contable externo (Urbaneja) vía WhatsApp.
-            - Paso 4: ⚠️ Pendiente validar en sesión próxima (confirmación de corrección y seguimiento).
+            - Paso 4: Se recibe la sugerencia de corrección del asesor contable externo y se notifica a la Gerencia General.
         - ¿Qué necesitan para hacer esta tarea?
             - Reportes y documentos contables descargados de Odoo.
             - Contacto activo con el asesor contable externo (Urbaneja).
@@ -388,7 +388,7 @@ Creado: 17 de marzo de 2026 12:51
             - Odoo: obtención de reportes y documentos contables para revisión.
             - WhatsApp: comunicación informal con el asesor contable externo.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se notifica a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que la coordinación con el asesor contable sea mensual y formal, con un canal de comunicación más estructurado que WhatsApp y con trazabilidad de los errores detectados y corregidos.
     - Propuesta 5.1: Coordinación de auditorías y envío de información a asesor contable externo
@@ -412,7 +412,7 @@ Creado: 17 de marzo de 2026 12:51
         - ¿Qué necesitan para hacer esta tarea?
             - Documentos y papeles de trabajo de movimientos fiscales.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima (el transcript no describió un output específico para esta tarea separada de TAREA.5.1).
+            - La validación de lo que está hecho y lo que falta en materia de movimientos fiscales, integrada al flujo de auditoría de TAREA.5.1.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: obtención de reportes de movimientos fiscales (libros de IVA compras y ventas) para revisión (fuente: transcript sesión 1 — mismos sistemas que TAREA.5.1).
         - ¿Qué pasa cuando las cosas no salen normal?
@@ -448,7 +448,7 @@ Creado: 17 de marzo de 2026 12:51
         - ¿Qué se genera al terminar?
             - Archivo físico y digital actualizado por departamento y por período. Actualmente no existe de forma organizada.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima (no se especificó herramienta de archivo digital).
+            - Almacenamiento en la nube y carpetas de archivo digital.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Cuando llega una fiscalización sin que la documentación esté organizada, todos los departamentos deben reaccionar de urgencia para localizar, ordenar y escanear papeles, con el riesgo de no encontrar información o presentarla incompleta.
         - ¿Cómo les gustaría que funcionara idealmente?
@@ -459,7 +459,7 @@ Creado: 17 de marzo de 2026 12:51
 
 ---
 
-- TAREA.6.1 — Administración de usuarios de cuentas bancarias corporativas (perfiles de consulta y transaccionales) ⚠️ Pendiente validar en sesión próxima
+- TAREA.6.1 — Administración de usuarios de cuentas bancarias corporativas (perfiles de consulta y transaccionales)
     - AS-IS 6.1: Administración de usuarios de cuentas bancarias corporativas
         - ¿Qué es esta tarea?
             - Gestión de los accesos a las cuentas bancarias corporativas: creación de usuarios con perfil de consulta o perfil transaccional, asignación a las personas correspondientes y control del usuario máster.
@@ -476,15 +476,15 @@ Creado: 17 de marzo de 2026 12:51
             - Paso 1: Determinar el nivel de acceso requerido: consulta (analista) o transaccional.
             - Paso 2: Crear el usuario en la plataforma bancaria correspondiente con el perfil definido.
             - Paso 3: Asignar el usuario a la persona indicada.
-            - Paso 4: ⚠️ Pendiente validar en sesión próxima (no se mencionó proceso de baja o modificación de usuarios).
+            - Paso 4: Cuando una persona se retira de la empresa, se elimina su usuario en los portales bancarios. Si se requiere aumento de límite transaccional, se gestiona directamente en el portal bancario correspondiente.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso de usuario máster a las plataformas bancarias.
         - ¿Qué se genera al terminar?
             - Usuario bancario creado y asignado. No se mencionó registro formal del proceso.
         - ¿Qué sistemas o herramientas usan?
-            - Plataformas bancarias en línea de los bancos corporativos (nombres específicos: ⚠️ Pendiente validar en sesión próxima).
+            - Plataformas bancarias en línea: Banplus, BNC, BFC, BM, Bicentenario, Banesco.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se informa a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que toda la administración de usuarios bancarios esté centralizada en un único responsable del área de Tesorería, con niveles de aprobación definidos, en lugar de estar repartida entre Contraloría y Administración.
     - Propuesta 6.1: Administración de usuarios de cuentas bancarias corporativas
@@ -492,7 +492,7 @@ Creado: 17 de marzo de 2026 12:51
 
 ---
 
-- TAREA.6.2 — Ejecución de pagos en plataformas bancarias ⚠️ Pendiente validar en sesión próxima
+- TAREA.6.2 — Ejecución de pagos en plataformas bancarias
     - AS-IS 6.2: Ejecución de pagos en plataformas bancarias
         - ¿Qué es esta tarea?
             - Realización de pagos y transferencias a través de las plataformas bancarias en línea de la empresa.
@@ -500,21 +500,21 @@ Creado: 17 de marzo de 2026 12:51
             - Para cumplir con las obligaciones de pago de la empresa (proveedores, nómina, parafiscales, etc.) ante la ausencia de un área de Tesorería formal.
         - ¿Qué roles ejecutan esta tarea?
             - Ejecuta actualmente: Gerente de Contraloría (Meche), de forma temporal por solicitud expresa ante la ausencia de tesorero.
-            - Nota: esta actividad debería corresponder a Tesorería o Administración; actualmente no hay un responsable formal.
+            - Nota: esta actividad debería corresponder a Tesorería o Administración; actualmente no hay un responsable formal. Contraloría continúa ejecutándola dado que no ha ingresado personal al área de Administración.
         - ¿Cuándo se hace?
             - Disparador: Solicitud de pago recibida.
-            - Frecuencia: ⚠️ Pendiente validar en sesión próxima
+            - Frecuencia: Diaria.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima (el flujo completo de autorización y ejecución del pago no fue descrito en la sesión).
+            - Paso 1: Los pagos a realizar se comunican a través del grupo de Pagos de WhatsApp. Los pagos solicitados por esa vía se consideran ya autorizados por la Gerencia General; la responsable los ejecuta en los portales bancarios correspondientes.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso transaccional a las plataformas bancarias.
-            - ⚠️ Pendiente validar en sesión próxima (documentos de soporte del pago, aprobaciones previas).
+            - ⚠️ Pendiente validar en sesión próxima (documentos de soporte del pago requeridos en la situación actual).
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima (comprobante de pago, registro en Odoo — no fue confirmado en la sesión).
+            - Comprobante bancario del pago ejecutado.
         - ¿Qué sistemas o herramientas usan?
             - Plataformas bancarias en línea (nombres específicos: ⚠️ Pendiente validar en sesión próxima).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se informa a la Gerente de Administración y Finanzas (Ericka Milagro Antequera).
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que esta tarea sea asumida por un área de Tesorería formal, con niveles de aprobación definidos, y que deje de recaer sobre Contraloría.
     - Propuesta 6.2: Ejecución de pagos en plataformas bancarias
@@ -544,15 +544,15 @@ Creado: 17 de marzo de 2026 12:51
             - Odoo: módulo de inventario, reportes de stock, ubicaciones e historial de movimientos.
             - Nota: la responsable indicó que no utiliza el reporte de valoración de inventario.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Se notifica a la Gerencia General.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima
+            - Que los reportes se puedan descargar también en formato PDF.
     - Propuesta 7.1: Descarga de reportes de inventario desde Odoo
         - Pendiente.
 
 ---
 
-- TAREA.7.2 — Descarga de libros contables (IVA compras, IVA ventas, balance de comprobación, estado de situación, estado de resultados, libro mayor) ⚠️ Pendiente validar en sesión próxima
+- TAREA.7.2 — Descarga de libros contables (IVA compras, IVA ventas, balance de comprobación, estado de situación, estado de resultados, libro mayor)
     - AS-IS 7.2: Descarga de libros contables desde Odoo
         - ¿Qué es esta tarea?
             - Descarga desde Odoo de los libros y reportes contables utilizados por Contraloría: libro de IVA compras, libro de IVA ventas, balance de comprobación, estado de situación financiera, estado de resultados y libro mayor.
@@ -566,7 +566,7 @@ Creado: 17 de marzo de 2026 12:51
         - ¿Cómo se hace?
             - Paso 1: Acceder a Odoo.
             - Paso 2: Descargar los reportes disponibles: libro de IVA compras, libro de IVA ventas, balance de comprobación, estado de situación, estado de resultados y libro mayor.
-            - Paso 3: ⚠️ Pendiente validar en sesión próxima (el libro diario fue mencionado como requerido por el Código de Comercio pero la responsable indicó que no sabe cómo descargarlo desde Odoo).
+            - Paso 3: Situación vigente: solo se descargan los libros fiscales, el libro mayor y los estados financieros. Falta incorporar los libros contables obligatorios: libro diario, libro de inventario y balance de comprobación. La responsable indicó no saber cómo descargar el libro diario desde Odoo.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso a Odoo con permisos para el módulo de contabilidad y sus reportes.
             - Cierres mensuales realizados para que los reportes descargados sean confiables y estables.
