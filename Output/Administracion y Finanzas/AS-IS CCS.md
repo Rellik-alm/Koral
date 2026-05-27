@@ -1,4 +1,4 @@
-Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos.
+Procesado: 2026-05-27 — Campos pendientes actualizados con respuestas de Ericka Milagro Antequera.
 
 # AS - IS: Administración y Finanzas (CCS)
 
@@ -40,7 +40,7 @@ Creado: 17 de marzo de 2026 11:54
             - WhatsApp (grupo de extractos bancarios): para envío del extracto a Yoselyn Sojo Fernandez y notificación al equipo.
             - Odoo: para importación del extracto bancario.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Se reanaliza el extracto bancario desde el día 1 del período para localizar la incidencia. Odoo no advierte cuando una operación se cargó duplicada o triplicada; simplemente acepta la instrucción, por lo que la corrección requiere revisión manual del registro completo para eliminar o agregar movimientos según corresponda.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Centralizar la distribución del extracto bancario en un canal corporativo (Microsoft Teams u otro) en lugar de WhatsApp personal, para mantener historial institucional y eliminar el riesgo de pérdida de información si el dispositivo personal de Ericka Milagro Antequera falla o es sustituido.
     - Propuesta 4.1.1: Disponibilidad Diaria
@@ -73,9 +73,9 @@ Creado: 17 de marzo de 2026 11:54
             - Listado de pagos autorizados comunicado a Juan Jose Herrera Rangel (Asistente Administrativo Hotel) para su ejecución.
         - ¿Qué sistemas o herramientas usan?
             - Excel: plantilla manual de CXP con fecha de vencimiento, días vencidos y montos, para identificar qué proveedores pagar.
-            - ⚠️ Pendiente validar en sesión próxima si se usa algún sistema adicional para comunicar la planificación a Juan.
+            - Odoo: cuando hay pedidos pendientes por procesar o cerrar, se descarga un Excel desde Odoo para identificar el pedido faltante. En caso de dudas sobre pedidos incompletos en el sistema, se consulta a Asdrubal.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Se accede a Odoo y se descarga el listado de pedidos en Excel para identificar cuál falta. Si persiste la duda, se contacta a Asdrubal para verificar si existen pedidos pendientes de procesar en el sistema.
         - ¿Cómo les gustaría que funcionara idealmente?
             - Que Odoo reemplace la plantilla manual de Excel para CXP, permitiendo visualizar vencimientos, disponibilidad y priorización de pagos directamente en el sistema, eliminando la doble gestión.
     - Propuesta 4.1.2: Planificación de Pagos
@@ -103,14 +103,14 @@ Creado: 17 de marzo de 2026 11:54
             - Registro de las tasas calificadas por cada banco.
             - Acceso a los estados de cuenta o movimientos bancarios.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Banco conciliado y cerrado para el período. Si se detectaron diferencias, el paso siguiente es revisar el mayor analítico de la cuenta por mes y aplicar los asientos correctivos que correspondan.
         - ¿Qué sistemas o herramientas usan?
             - Portales bancarios (banca en línea): para consulta de movimientos y comisiones cobradas.
-            - ⚠️ Pendiente validar si hay un registro interno donde se documentan las tasas calificadas por banco.
+            - No existe un registro interno formal para las tasas calificadas por banco. La validación se realiza de forma manual; dado el volumen de transacciones por comisión, existe el riesgo de que el asistente no detecte un cambio de porcentaje en la revisión.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el banco cobró una tasa superior a la pactada: se contacta al banco, se verifica si hubo cambio de tarifa y se solicita reembolso si corresponde.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Condicionar en el sistema las conciliaciones por porcentaje de acuerdo al tipo de transacción: tarjetas de crédito (2% – 5%), pago móvil (0,30% – 1,50%), nómina TXT (1% – 2%). Que esas comisiones se autoconcilien automáticamente. Para los puntos de venta, que al indicar el tipo de transacción al depositar el lote, el sistema traiga por defecto las deducciones correspondientes.
     - Propuesta 4.1.3: Seguimiento a las Tasas Bancarias
         - Pendiente.
 
@@ -135,18 +135,19 @@ Creado: 17 de marzo de 2026 11:54
             - Paso 4: Gestionar ante la entidad bancaria la reubicación, sustitución o actualización del punto de venta según la estrategia comercial del período.
         - ¿Qué necesitan para hacer esta tarea?
             - Acceso a los portales bancarios para consulta de ingresos por punto de venta.
-            - Comunicación con el personal del hotel (Adriana, Lindy) vía ⚠️ Pendiente validar medio de comunicación formal.
+            - Comunicación con el personal del hotel: vía WhatsApp directamente con Adriana Montes Caceres, o con Libny Carina Tarazon Gallegos a través de la recepción del hotel.
             - Contacto con las entidades bancarias para gestiones de instalación o sustitución.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima si se genera un registro formal de la gestión realizada.
+            - Verificación o aplicación correcta del cobro al beneficiario correspondiente: asignación a una reserva para confirmarla, o a un consumo para proceder con el checkout del huésped.
         - ¿Qué sistemas o herramientas usan?
             - Portales bancarios (banca en línea): para verificar ingresos por punto de venta y detectar ausencia de movimiento.
-            - ⚠️ Pendiente validar si se usa algún sistema adicional para registrar o comunicar el estado de los puntos.
+            - Cierre emitido en papel desde el punto de venta y cierre de lote descargado de Credicard: método de validación adicional para detectar ausencia de montos y contactar al ejecutivo bancario para resolver la transacción.
+            - Distribución actual de los puntos de venta: 2 de Banplus (costo 0, pertenecen al banco, cedidos a SERAC en calidad de préstamo), 2 de Banco Activo (costo 0, misma modalidad), 1 de Bancamiga (pertenece a SERAC).
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si hay falla técnica en un punto de venta: se reporta al técnico de la instalación bancaria correspondiente.
             - Si un punto lleva más de una semana sin ingresos: se coordina con el personal del hotel para verificar uso y se decide rotación o retiro temporal.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El departamento de Finanzas orienta la estrategia de ubicación para canalizar ingresos hacia los puntos de mayor conveniencia, sin dejar de rotar los equipos para mantener la relación comercial con los bancos.
     - Propuesta 4.1.4: Seguimiento y Actualización de Puntos de Venta
         - Pendiente.
 
@@ -176,14 +177,14 @@ Creado: 17 de marzo de 2026 11:54
             - Acceso al portal de banca en línea (para cuentas nómina).
         - ¿Qué se genera al terminar?
             - Expediente bancario completo entregado a la entidad bancaria.
-            - ⚠️ Pendiente validar si se genera algún registro interno o notificación formal al completar la apertura.
+            - Se informa a Talento Humano la cuenta asignada, incluyendo RIF, cédula y firma del beneficiario, y se coordina el envío del expediente al banco. Talento Humano toma nota de la cuenta para comenzar a procesar los pagos de nómina por esa cuenta.
         - ¿Qué sistemas o herramientas usan?
             - Portal de banca en línea: para la solicitud de cuentas nómina.
-            - ⚠️ Pendiente validar si se usa algún sistema adicional para el registro o seguimiento del proceso de apertura.
+            - El banco contacta directamente al departamento cuando los kits de apertura están disponibles para retiro; no se requiere seguimiento activo de la solicitud.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El banco informa los detalles del inconveniente; Talento Humano aclara, corrige y reenvía la documentación que corresponda.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Mientras Banplus sea el banco de nómina, el proceso funciona de forma aceptable. Pendiente de validar con Talento Humano si existe necesidad de mejora.
     - Propuesta 4.1.5: Apertura de Cuentas Jurídicas
         - Pendiente.
 
@@ -210,13 +211,13 @@ Creado: 17 de marzo de 2026 11:54
             - Acceso al portal de banca en línea.
             - Documentos físicos del trabajador requeridos por el banco.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima si se genera notificación formal o registro interno al completar la apertura.
+            - Se informa a Talento Humano la cuenta asignada con datos del beneficiario (RIF, cédula, firma). Talento Humano registra la cuenta para iniciar el procesamiento de compromisos salariales.
         - ¿Qué sistemas o herramientas usan?
             - Portal de banca en línea: para la solicitud formal de apertura de cuenta nómina.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El banco informa los detalles del inconveniente; Talento Humano aclara, corrige y reenvía la documentación requerida.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Mientras Banplus sea el banco de nómina, el proceso funciona de forma aceptable. Pendiente de validar con Talento Humano si existe necesidad de mejora.
     - Propuesta 4.1.6: Apertura de Cuentas Nóminas
         - Pendiente.
 
@@ -252,9 +253,9 @@ Creado: 17 de marzo de 2026 11:54
             - Excel: para depuración y adecuación del formato.
             - Odoo: para importación del extracto bancario.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Si Odoo detecta movimientos duplicados durante la importación, se genera retrabajo en el cuadre de saldos iniciales y finales, requiriendo revisión manual para eliminar los registros duplicados.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que los bancos estén conectados en línea con Odoo para que la carga sea automática y el equipo solo tenga que conciliar las operaciones, eliminando el proceso de carga manual. Pendiente evaluar el costo de dicha automatización.
     - Propuesta 4.1.7: Carga de Extracto Bancario
         - Pendiente.
 
@@ -291,7 +292,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el banco aparece sobregirado o con movimientos faltantes o sobrantes: Ericka Milagro Antequera identifica las diferencias y gestiona la corrección.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que la automatización del cotejo reduzca el tiempo de análisis comparativo entre el banco y el sistema.
     - Propuesta 4.1.8: Carga y Cotejo del Estado de Cuenta Bancario
         - Pendiente.
 
@@ -325,7 +326,7 @@ Creado: 17 de marzo de 2026 11:54
             - Plataforma bancaria (banca en línea): para ejecución de la transferencia.
             - Odoo: para conciliación del movimiento (ejecutada por Yoselyn Sojo Fernandez).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Pago extemporáneo al beneficiario.
         - ¿Cómo les gustaría que funcionara idealmente?
             - El equipo expresó que la comunicación por WhatsApp personal es un riesgo operativo: si Ericka Milagro Antequera se va o se daña el teléfono, se pierde el historial. La mejora propuesta es usar un canal corporativo, posiblemente Microsoft Teams, para centralizar estas solicitudes y mantener el historial institucional.
     - Propuesta 4.1.9: Transferencias por Propina, Vuelto o Error
@@ -338,7 +339,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué es esta tarea?
             - Pago puntual para la recarga del TAG de Cobre del señor Rafael, registrado a nombre de SERAC.
         - ¿Para qué se hace?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La tarjeta de Cobre TAG está registrada a nombre de SERAC pero su uso es personal del señor Rafael, principalmente cuando viaja al hotel.
         - ¿Qué roles ejecutan esta tarea?
             - Ericka Milagro Antequera (Gerente de Administración y Finanzas): ejecuta o coordina el pago.
             - Yoselyn Sojo Fernandez (Asistente Administrativa): concilia el movimiento en Odoo, según el mismo flujo descrito para pagos similares (combustible, Simple TV).
@@ -396,9 +397,9 @@ Creado: 17 de marzo de 2026 11:54
             - WhatsApp (grupo de pagos a proveedores): para envío de soportes al equipo de conciliación.
             - Odoo: para conciliación (ejecutada por Juan o Yoselyn Sojo Fernandez).
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Si no se paga a los proveedores a crédito en el plazo pactado, puede suspenderse el despacho de mercancía.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Dejar de gestionar la comunicación de soportes a través del grupo de WhatsApp y utilizar exclusivamente la herramienta Odoo: que el responsable de hablar con el proveedor descargue el comprobante directamente desde el sistema y se lo haga llegar a quien corresponda. Obstáculo identificado: el área de Compras no tiene acceso para descargar retenciones, dado que SERAC es contribuyente especial.
     - Propuesta 4.2.1: Pago a Proveedores desde la Plataforma Bancaria
         - Pendiente.
 
@@ -427,14 +428,14 @@ Creado: 17 de marzo de 2026 11:54
             - Correo electrónico y teléfono de contacto del proveedor.
         - ¿Qué se genera al terminar?
             - Correo electrónico de solicitud de reembolso enviado al proveedor con los documentos adjuntos.
-            - ⚠️ Pendiente validar si existe un registro de seguimiento de reembolsos pendientes.
+            - El seguimiento posterior se realiza por WhatsApp. No existe un registro formal centralizado de reembolsos pendientes; el seguimiento es discontinuo y la retención debe devolverse dentro del mismo período fiscal.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: para generación del comprobante de retención.
             - Correo electrónico: para envío formal de la solicitud de reembolso.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima qué ocurre si el proveedor no responde o niega el reembolso.
+            - Se es constante en el seguimiento hasta recibir el reembolso. Los proveedores que se niegan a devolver la retención se llevan a pérdida; como referencia, los del período 2023-2024 se registraron de esa forma.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que en el momento de ejecutar la compra ya queden aplicadas las deducciones, para no depender de un seguimiento posterior que resulta irregular.
     - Propuesta 4.2.2: Solicitar Reembolso de Retenciones a Proveedores
         - Pendiente.
 
@@ -450,21 +451,23 @@ Creado: 17 de marzo de 2026 11:54
             - Ericka Milagro Antequera (Gerente de Administración y Finanzas): ejecuta o coordina el pago.
             - Yoselyn Sojo Fernandez (Asistente Administrativa): concilia el movimiento en Odoo, según el flujo estándar de pagos puntuales.
         - ¿Cuándo se hace?
-            - Disparador: ⚠️ Pendiente validar en sesión próxima la fecha límite de pago mensual.
-            - Frecuencia: mensual.
+            - Disparador: el pago se ejecuta cuando Simple TV notifica que cortó el servicio de alguna tarjeta. Internamente no existe un sistema que mida el estado de corte de cada tarjeta.
+            - Frecuencia: mensual. Se gestiona el pago de las 23 tarjetas de forma individual.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima el detalle del proceso de pago (portal, referencia por tarjeta, monto, etc.).
-            - Paso 2: Ejecutar el pago a través de Bancamiga o Banco Activo.
-            - Paso 3: Pasar la información a Yoselyn Sojo Fernandez para conciliación en Odoo.
+            - Paso 1: Ejecutar transferencias individuales por cada tarjeta de Simple TV, usando un archivo manual que contiene los números de tarjeta.
+            - Paso 2: Ejecutar el pago a través de Bancamiga (frecuentemente) o Banco Activo.
+            - Paso 3: Pasar los comprobantes al asistente administrativo para conciliación en Odoo, uno a uno, imputando a la cuenta de costo de venta del servicio al huésped de DirecTV Internacional.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima (números de tarjeta, datos del servicio, credenciales del portal).
+            - Consultar en el banco la tarifa vigente y ejecutar el pago.
+            - Archivo manual con los números de las 23 tarjetas de Simple TV.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima (comprobante de pago, notificación, registro en sistema).
+            - Servicio de televisión activo en las habitaciones del hotel.
+            - Comprobantes de pago conciliados en Odoo bajo la cuenta de costo de venta del servicio al huésped.
         - ¿Qué sistemas o herramientas usan?
-            - Bancamiga o Banco Activo (plataforma bancaria): para ejecución del pago.
-            - Odoo: para conciliación del movimiento (ejecutada por Yoselyn Sojo Fernandez).
+            - Bancamiga o Banco Activo (plataforma bancaria): para ejecución del pago, frecuentemente Bancamiga.
+            - Odoo: para conciliación del movimiento (ejecutada por el asistente administrativo), imputando a la cuenta de costo de venta del servicio al huésped.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Si no se paga a tiempo, Simple TV corta el servicio en la habitación afectada. Esto puede implicar un cambio de habitación al huésped, y si el hotel está con ocupación total, no es posible moverlo.
         - ¿Cómo les gustaría que funcionara idealmente?
             - El equipo mencionó en sesión que estaba evaluando si conviene migrar a un plan corporativo, pero determinaron que resultaría más costoso y que bajo las condiciones actuales los gastos deben llevarse a gasto no deducible. Quedó sin efecto la contratación de un plan corporativo.
     - Propuesta 4.2.3: Pago Mensual de 23 Tarjetas de Simple TV
@@ -513,6 +516,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Cómo les gustaría que funcionara idealmente?
             - ⚠️ Pendiente validar en sesión próxima.
     - Propuesta 4.2.4: Retenciones Urgentes / Compras Urgentes
+
         - Pendiente.
 
 ---
@@ -854,7 +858,7 @@ Creado: 17 de marzo de 2026 11:54
 - TAREA 4.3.5: Preparar Información para el IGP
     - AS-IS 4.3.5: Preparación de Información para Declaración de IGP
         - ¿Qué es esta tarea?
-            - Preparación de papeles de trabajo para la declaración anual del Impuesto a los Grandes Patrimonios (IGP). Según lo confirmado en sesión, el IGP declara los activos adquiridos en el año (diferente del ISLR que declara ingresos, costos y gastos). ⚠️ Pendiente confirmar si el IGP aplica a SERAC como persona jurídica o solo a las personas naturales vinculadas (señor Rafael, doctor Alberto).
+            - Preparación de papeles de trabajo para la declaración anual del Impuesto a los Grandes Patrimonios (IGP). Según lo confirmado en sesión, el IGP declara los activos adquiridos en el año (diferente del ISLR que declara ingresos, costos y gastos). Confirmado: el IGP aplica a SERAC como persona jurídica contribuyente especial.
         - ¿Para qué se hace?
             - Para cumplir con la obligación fiscal anual de declaración patrimonial ante el SENIAT.
         - ¿Qué roles ejecutan esta tarea?
@@ -914,7 +918,7 @@ Creado: 17 de marzo de 2026 11:54
             - Odoo: para conciliación del movimiento.
             - Correo electrónico o WhatsApp: para notificación interna a Legal, Administración Tucaca y Talento Humano.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El pago se realiza mensualmente y se reporta a Genesy Martinez (Legal) para el registro y archivo correspondiente.
         - ¿Cómo les gustaría que funcionara idealmente?
             - ⚠️ Pendiente validar en sesión próxima.
     - Propuesta 4.3.6: Pago FONACIT Mensual
@@ -949,9 +953,9 @@ Creado: 17 de marzo de 2026 11:54
             - Portal/plataforma de pago INATUR.
             - Odoo: para conciliación.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El pago debe cancelarse antes del día 5 de cada mes. Se envía el monto calculado a la Dra. Genesy Martinez (Legal) para que realice la declaración en el portal de INATUR y se obtenga la planilla de declaración del período.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que Legal notifique al área de Administración y Finanzas en cuanto realice la declaración, para cerrar el proceso con la confirmación correspondiente.
     - Propuesta 4.3.7: Pago INATUR Mensual
         - Pendiente.
 
@@ -981,10 +985,10 @@ Creado: 17 de marzo de 2026 11:54
             - Pago ejecutado.
             - Comprobante para archivo y conciliación en Odoo.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar plataforma de pago de la Alcaldía (portal en línea o presencial).
-            - Odoo: para conciliación.
+            - Libny Carina Tarazon Gallegos (Coordinadora de Administración Hotel) envía la declaración de ventas del período. La Alcaldía genera el cálculo en su propio sistema y emite una planilla con el monto a pagar (2% sobre las ventas declaradas en el literal 46 del IVA). El pago debe realizarse antes del día 15. Una vez pagado, la Alcaldía emite solvencia a Libny Carina Tarazon Gallegos.
+            - Odoo: para conciliación del movimiento en la cuenta contable que corresponde.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Se concilia en la cuenta contable correspondiente y se espera la emisión de la solvencia.
         - ¿Cómo les gustaría que funcionara idealmente?
             - ⚠️ Pendiente validar en sesión próxima.
     - Propuesta 4.3.8: Pago Alcaldía Municipio Silva
@@ -1017,12 +1021,12 @@ Creado: 17 de marzo de 2026 11:54
             - Comprobante para archivo y conciliación en Odoo.
         - ¿Qué sistemas o herramientas usan?
             - Portal BCV: para consulta de tasa oficial del día.
-            - ⚠️ Pendiente validar plataforma de pago de INPARQUES (portal en línea o presencial).
+            - El pago no se realiza a través de un portal en línea. Se reporta directamente a la administración de INPARQUES, que emite la solvencia de forma manual por correo electrónico.
             - Odoo: para conciliación.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el pago no se procesa antes del día 5, existe riesgo de multa o penalización.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que INPARQUES habilitara una plataforma automatizada de pago y emisión de solvencia, en lugar del proceso manual actual.
     - Propuesta 4.3.9: Pago INPARQUES Mensual
         - Pendiente.
 
@@ -1043,23 +1047,23 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Cómo se hace?
             - Paso 1: Consultar la tasa oficial BCV del día del pago.
             - Paso 2: Calcular el equivalente en bolívares de los 200 euros.
-            - Paso 3: Realizar el pago ante el ISMA (trámite presencial; el ente emite comprobantes manuales — no tiene plataforma en línea).
-            - Paso 4: Obtener el sello de solvencia emitido por el ISMA.
+            - Paso 3: Acceder al portal de Aseo de Silva (aseodesilva.sirid.net), realizar el cálculo en la plataforma y ejecutar el pago. La plataforma está operativa desde marzo 2024.
+            - Paso 4: Una vez procesado el pago en la plataforma, la solvencia se emite digitalmente y se envía por correo electrónico a Libny Carina Tarazon Gallegos.
             - Paso 5: Pasar el comprobante a Yoselyn Sojo Fernandez para conciliación en Odoo.
         - ¿Qué necesitan para hacer esta tarea?
             - Tasa oficial BCV del día.
-            - Acceso al ISMA (presencial).
+            - Acceso al portal aseodesilva.sirid.net.
         - ¿Qué se genera al terminar?
-            - Comprobante de solvencia (sello físico) emitido por el ISMA.
+            - Comprobante de solvencia emitido digitalmente por la plataforma de Aseo de Silva, enviado por correo electrónico a Libny Carina Tarazon Gallegos.
             - Registro en Odoo para conciliación.
         - ¿Qué sistemas o herramientas usan?
             - Portal BCV: para consulta de tasa oficial del día.
+            - Portal aseodesilva.sirid.net: para declaración, cálculo y pago del aseo urbano (operativo desde marzo 2024).
             - Odoo: para conciliación del movimiento.
-            - ⚠️ Trámite presencial ante el ISMA — comprobantes manuales, sin plataforma en línea.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - No se han registrado multas desde que la plataforma inició operaciones en marzo 2024.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - El proceso actual es satisfactorio tal como está.
     - Propuesta 4.3.10: Pago Aseo Urbano ISMA
         - Pendiente.
 
@@ -1067,24 +1071,30 @@ Creado: 17 de marzo de 2026 11:54
 
 - TAREA 4.3.11: Pago de Arrendamiento Dr. Acid Margarita
     - AS-IS 4.3.11: Pago de Arrendamiento Dr. Acid Margarita
-        - ⚠️ Nota: Este ítem aparece también como tarea 4.2.7. Pendiente confirmar en sesión si son el mismo pago registrado en dos áreas distintas, o si corresponden a contratos o conceptos diferenciados.
+        - ⚠️ Nota: Este ítem aparece también como tarea 4.2.7. Según Ericka Milagro Antequera, el proceso en ambos casos es el mismo: pagar en el momento que lo indique el Dr. Alberto (Acid) y registrar como CxC del Dr. Acid en Odoo. Pendiente confirmar en sesión si las dos entradas corresponden al mismo contrato de arrendamiento o a contratos distintos.
         - ¿Qué es esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima si esta tarea es un duplicado de 4.2.7 o si tiene un alcance diferenciado.
+            - Pago del arrendamiento correspondiente al Dr. Alberto (Acid) ejecutado únicamente cuando él lo indique, con registro del movimiento como cuenta por cobrar al Dr. Acid en Odoo.
         - ¿Para qué se hace?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Para cumplir con la obligación de arrendamiento asociada al Dr. Alberto, cuyo pago queda registrado como CxC del socio hasta su regularización.
         - ¿Qué roles ejecutan esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Ericka Milagro Antequera (Gerente de Administración y Finanzas): ejecuta el pago cuando recibe instrucción del Dr. Alberto.
         - ¿Cuándo se hace?
-            - Disparador: ⚠️ Pendiente validar en sesión próxima.
-            - Frecuencia: mensual.
+            - Disparador: instrucción directa del Dr. Alberto (Acid) solicitando el pago.
+            - Frecuencia: mensual, condicionada a la instrucción del Dr. Alberto.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente validar en sesión próxima.
+            - Paso 1: Recibir la instrucción del Dr. Alberto para ejecutar el pago.
+            - Paso 2: Ejecutar el pago desde la plataforma bancaria.
+            - Paso 3: Registrar el movimiento en Odoo como CxC del Dr. Acid.
         - ¿Qué necesitan para hacer esta tarea?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Instrucción del Dr. Alberto con monto y destinatario del pago.
+            - Acceso a la plataforma bancaria.
+            - Acceso a Odoo para registro de la CxC.
         - ¿Qué se genera al terminar?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Pago ejecutado.
+            - Registro en Odoo como CxC del Dr. Acid.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Plataforma bancaria: para ejecución del pago.
+            - Odoo: para registro del movimiento como CxC del Dr. Acid.
         - ¿Qué pasa cuando las cosas no salen normal?
             - ⚠️ Pendiente validar en sesión próxima.
         - ¿Cómo les gustaría que funcionara idealmente?
@@ -1125,9 +1135,9 @@ Creado: 17 de marzo de 2026 11:54
             - WhatsApp: comunicaciones informales con el equipo.
             - Odoo: consulta de pedidos de compra.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Por el volumen de trabajo, cada quien prioriza lo urgente según su criterio; no existe un estándar definido de priorización de labores. La única excepción con fechas fijas es el cierre fiscal, que se rige por el calendario del SENIAT.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Establecer un orden de prioridades para ir cerrando gestiones de forma uniforme en el equipo.
     - Propuesta 4.4.1: Seguimiento Gestiones y Reportes
         - Pendiente.
 
@@ -1135,7 +1145,7 @@ Creado: 17 de marzo de 2026 11:54
 
 - TAREA 4.4.2: Enviar Correo a Venetur con Cruce y Pago Correspondiente de Cada MAS Incluyendo EDR e Informe de Gestión de Obras
     - AS-IS 4.4.2: Envío Mensual de Reporte y Pago a Venetur/Benetur
-        - ⚠️ Nota: El inventario mezcla dos entregables (cruce/pago financiero + informe de gestión de obras). Pendiente validar en sesión si son una sola tarea o dos enviadas juntas.
+        - Nota: El inventario mezcla dos entregables (cruce/pago financiero + informe de gestión de obras). Según lo confirmado por Ericka Milagro Antequera, Libny Carina Tarazon Gallegos le reporta el cruce a Ericka, quien lo revisa y lo reporta a la Dra. Genesy Martinez (abogada de Legal) para su formalización ante Venetur.
         - ¿Qué es esta tarea?
             - Envío mensual a Venetur del cruce de pagos y comprobantes correspondientes a cada MAS (Mensualidad o cuota pactada), incluyendo el estado de resultados (EDR) y el informe de gestión de obras terminadas y en proceso. El pago asociado se formaliza antes del día 3 del mes y la formalización documental vía el departamento legal se completa antes del día 10.
         - ¿Para qué se hace?
@@ -1164,11 +1174,11 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué sistemas o herramientas usan?
             - Correo electrónico: para envío del reporte a Venetur.
             - Odoo: para generación del EDR y comprobantes de pago.
-            - ⚠️ Pendiente validar plataforma de pago ante Venetur/Benetur.
+            - El pago se realiza mediante transferencia bancaria a cuenta en Bancamiga (bolívares) y depósito en divisas a una cuenta en moneda dura. El reporte se formaliza por correo electrónico con todos los avales del cruce.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima qué ocurre si el pago no se procesa antes del día 3.
+            - Si el pago no se procesa antes del día 3, no se genera consecuencia inmediata conocida; sin embargo, la recomendación recibida en la última inspección fue mantener ese plazo para evitar observaciones.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Simplificar el proceso de reporte, dado que actualmente es completamente manual y eso genera riesgo de actas de reparo en futuras revisiones.
     - Propuesta 4.4.2: Reporte y Pago Mensual a Venetur
         - Pendiente.
 
@@ -1176,7 +1186,7 @@ Creado: 17 de marzo de 2026 11:54
 
 - TAREA 4.4.3: Copiar Hipervínculo de Facturas de Compra y Pegarlo en Odoo en Cada Cierre
     - AS-IS 4.4.3: Vinculación de Facturas Escaneadas en Odoo (Cierre)
-        - ⚠️ Nota: El inventario señala que podría ser un paso interno del proceso de cierre y no una tarea independiente. Pendiente validar en sesión.
+        - Nota: El inventario señala que podría ser un paso interno del proceso de cierre y no una tarea independiente. Según lo indicado por Ericka Milagro Antequera, la tarea ha sido asignada a Zenaida (nuevo ingreso al equipo).
         - ¿Qué es esta tarea?
             - Al momento de cada cierre contable, luego de enumerar y escanear las facturas de compra, se copia el hipervínculo del archivo escaneado almacenado en la nube (Office 365) y se pega en el campo correspondiente de la factura en Odoo, para mantener el vínculo entre el documento físico escaneado y el registro digital.
         - ¿Para qué se hace?
@@ -1202,7 +1212,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el hipervínculo no funciona o el archivo fue movido, se debe localizar el nuevo path y actualizar el vínculo.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que la vinculación se realice cada quincena para que en el momento de revisión a detalle no sea necesario dar vuelta en la nube, sino trabajar directamente desde el hipervínculo en Odoo.
     - Propuesta 4.4.3: Vinculación Facturas Escaneadas en Odoo
         - Pendiente.
 
@@ -1235,9 +1245,9 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué sistemas o herramientas usan?
             - Odoo: para registro de asientos y cierre de facturas.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Se acumulan las CxP a proveedor cuando en realidad la deuda no es con el proveedor externo sino con el Sr. Racid, que fue quien efectuó el pago. Esto distorsiona el saldo de proveedores y la posición real de CxP.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Designar un responsable con perfil autorizado para la creación de asientos contables, de modo que la tarea quede centralizada y no se dependa de múltiples usuarios con acceso irrestricto a asientos.
     - Propuesta 4.4.4: Asientos CxP Socios Racid
         - Pendiente.
 
@@ -1254,7 +1264,7 @@ Creado: 17 de marzo de 2026 11:54
             - Ericka Milagro Antequera (Gerente de Administración y Finanzas): valida y aprueba los cambios de configuración.
         - ¿Cuándo se hace?
             - Disparador: detección de inconsistencias en cuentas contables de facturas, o como parte del proceso de cierre contable.
-            - Frecuencia: ⚠️ Pendiente validar si es periódica o solo bajo demanda.
+            - Frecuencia: bajo demanda; no tiene periodicidad fija. Se activa al detectar inconsistencias en cuentas contables o durante el cierre contable. Existe la posibilidad de restringir en Odoo la modificación de cuentas contables de categorías ya asignadas, para evitar que configuraciones previas se vean afectadas involuntariamente.
         - ¿Cómo se hace?
             - Paso 1: Acceder al módulo de categorías de productos en Odoo.
             - Paso 2: Revisar las cuentas contables por defecto asignadas a cada categoría.
@@ -1265,13 +1275,13 @@ Creado: 17 de marzo de 2026 11:54
             - Conocimiento del plan de cuentas de la empresa.
         - ¿Qué se genera al terminar?
             - Categorías contables correctamente configuradas en Odoo.
-            - ⚠️ Pendiente validar si se genera un registro o informe de los cambios realizados.
+            - No se genera un registro o informe formal de los cambios realizados; la revisión y corrección quedan reflejadas directamente en la configuración del sistema.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: configuración de categorías y cuentas contables.
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si facturas ya publicadas tienen cuentas incorrectas, se deben generar asientos de corrección.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Revisar masivamente las categorías y obtener certeza de que el sistema está siendo alimentado de forma contablemente correcta.
     - Propuesta 4.4.5: Revisión Categorías Contables Odoo
         - Pendiente.
 
@@ -1304,7 +1314,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si la factura ya fue publicada con cuenta incorrecta, se genera una nota de crédito o asiento de corrección.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Esta revisión está estrechamente vinculada a la correcta creación de categorías contables (tarea 4.4.5). La mejora requiere una revisión masiva de categorías para asegurar que las cuentas contables por defecto sean correctas y así reducir la carga de corrección manual en cada factura.
     - Propuesta 4.4.6: Revisión Cuentas Contables Facturas Compra
         - Pendiente.
 
@@ -1312,7 +1322,7 @@ Creado: 17 de marzo de 2026 11:54
 
 - TAREA 4.4.7: Verificar que el ISLR Esté Aplicado en las Líneas que Corresponde (Módulo de Compra)
     - AS-IS 4.4.7: Verificación de Aplicación de ISLR en Líneas de Facturas de Compra
-        - ⚠️ Nota: El inventario señala que podría ser un paso interno de la tarea 4.4.6 y no una tarea independiente. Pendiente validar en sesión.
+        - Nota: El inventario señala que podría ser un paso interno de la tarea 4.4.6 y no una tarea independiente. Confirmado por Ericka Milagro Antequera: más que una tarea independiente, es una revisión de monto y fecha dentro del flujo de registro de facturas de compra.
         - ¿Qué es esta tarea?
             - Verificación de que la retención de ISLR esté correctamente aplicada en las líneas específicas de cada factura de compra en Odoo, según el concepto y el porcentaje de retención calificado del proveedor.
         - ¿Para qué se hace?
@@ -1338,7 +1348,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si la factura ya fue confirmada sin ISLR, se gestiona la corrección mediante nota de crédito o asiento.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - La incidencia actualmente no es tan frecuente como antes. El caso más común es que la retención esté registrada en una fecha fuera del período que corresponde; en ese caso, se restablece la factura a borrador, se corrige la fecha y se vuelve a publicar.
     - Propuesta 4.4.7: Verificación ISLR en Facturas Compra
         - Pendiente.
 
@@ -1370,9 +1380,9 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué sistemas o herramientas usan?
             - Odoo: generación de devoluciones y notas de crédito.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Realizar una devolución implica análisis adicional y retrasa el proceso de pago al proveedor. El error generalmente se detecta cuando Administración procesa la factura, momento en que ya han transcurrido entre 7 y 15 días desde que Compras montó el pedido y Almacén lo recepcionó.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que el área de Compras realice un análisis semanal de sus pedidos para detectar y corregir errores en tiempo oportuno, de modo que cuando Administración procese la factura el pedido esté correcto.
     - Propuesta 4.4.8: Devoluciones en Odoo por Error
         - Pendiente.
 
@@ -1389,7 +1399,7 @@ Creado: 17 de marzo de 2026 11:54
             - Pasantes de apoyo: soporte esporádico para archivo físico, según disponibilidad.
         - ¿Cuándo se hace?
             - Disparador: acumulación de facturas sin archivar desde noviembre 2024. Tarea en backlog activo.
-            - Frecuencia: ⚠️ Pendiente definir si se liquida el backlog en una jornada o se divide en períodos.
+            - Frecuencia: esporádica. Eventualmente la realiza Ericka Milagro Antequera; generalmente la ejecutan Asdrubal, Juan Jose Herrera Rangel o Zenaida (nuevo ingreso al equipo).
         - ¿Cómo se hace?
             - Paso 1: Recopilar todas las facturas físicas pendientes de archivo desde noviembre 2024.
             - Paso 2: Escanear y asignar correlativo Odoo a las que aún no lo tengan.
@@ -1408,9 +1418,9 @@ Creado: 17 de marzo de 2026 11:54
             - Office 365 (carpeta compartida de Finanzas): archivo digital.
             - Escáner: digitalización de documentos físicos.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Si se crea con el porcentaje incorrecto, el cálculo de retención de IVA e ISLR queda errado. Una vez declarado, si el proveedor no devuelve el dinero y el monto ya fue declarado, no es posible corregir lo que ya fue presentado ante el SENIAT.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que el registro en Odoo tenga comunicación con el portal del SENIAT y valide si el porcentaje asignado es correcto; si está incorrecto, que el sistema no permita guardar la información hasta corregirlo.
     - Propuesta 4.4.9: Archivo Facturas Fiscales
         - Pendiente.
 
@@ -1446,7 +1456,7 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué pasa cuando las cosas no salen normal?
             - Si el proveedor no aparece en el portal SENIAT, se contacta directamente al proveedor para obtener sus datos fiscales actualizados.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que quien crea el proveedor lo realice correctamente conforme a los lineamientos del portal del SENIAT. Idealmente, que la interfaz de Odoo valide el porcentaje de retención al momento del ingreso y no permita guardar si se ingresa un porcentaje incorrecto.
     - Propuesta 4.5.1: Creación de Proveedores
         - Pendiente.
 
@@ -1476,9 +1486,9 @@ Creado: 17 de marzo de 2026 11:54
         - ¿Qué sistemas o herramientas usan?
             - Odoo: creación y configuración del producto.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Se archiva el producto con error y se notifica a María Mercedes para actuar según su disponibilidad. Se crea un producto nuevo con las características correctas. Es importante que el contador intervenga en este punto, ya que las categorías actuales se asignaron según el mejor criterio del equipo pero no necesariamente reflejan el tratamiento contable correcto.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que un contador intervenga en la creación de los productos para garantizar que cada uno viaje a la cuenta contable que corresponde y alimente la contabilidad de forma correcta.
     - Propuesta 4.5.2: Creación de Productos
         - Pendiente.
 
@@ -1500,12 +1510,12 @@ Creado: 17 de marzo de 2026 11:54
             - Disparador: instrucción de Enrique Rafael Cid sobre el tratamiento del inventario enviado por Eracon Salud.
             - Frecuencia: no es recurrente; es una actividad de seguimiento puntual bloqueada a la espera de decisión.
         - ¿Cómo se hace?
-            - Paso 1: ⚠️ Pendiente instrucción de Gerencia General sobre si procede facturar o no.
+            - Paso 1: Levantar el inventario de lo que se envió a Tucacas como activo (camillas, ambulancias, medicamentos, entre otros) y validar con el señor Rafael si eso se facturará fiscalmente o se dejará sin facturación.
         - ¿Qué necesitan para hacer esta tarea?
             - Instrucción formal de Enrique Rafael Cid sobre el tratamiento del inventario.
             - Inventario detallado de activos enviados por Eracon Salud durante 2025.
         - ¿Qué se genera al terminar?
-            - ⚠️ Depende de la instrucción recibida: puede generar factura intercompany o cierre de la gestión sin facturación.
+            - Si la Gerencia General decide facturar, se genera la factura de venta fiscal intercompany. Si decide no facturar, se cierra la gestión sin facturación.
         - ¿Qué sistemas o herramientas usan?
             - Odoo: para generación de la factura intercompany, cuando se reciba instrucción.
         - ¿Qué pasa cuando las cosas no salen normal?
@@ -1533,15 +1543,16 @@ Creado: 17 de marzo de 2026 11:54
             - Paso 2: Generar la factura de venta en Eracon Alimentos con ese monto base dirigida a SERAC.
         - ¿Qué necesitan para hacer esta tarea?
             - Referencia del mínimo tributable vigente de la Alcaldía de Chacao.
-            - Acceso al sistema contable de Eracon Alimentos (⚠️ pendiente confirmar si es Odoo u otro sistema).
+            - Acceso al sistema Odoo de Eracon Alimentos.
+            - Libro de ventas de Odoo de Eracon Alimentos para calificar los porcentajes a declarar ante la Alcaldía de Chacao.
         - ¿Qué se genera al terminar?
             - Factura de venta emitida en Eracon Alimentos a nombre de SERAC.
         - ¿Qué sistemas o herramientas usan?
-            - ⚠️ Pendiente confirmar sistema contable utilizado para Eracon Alimentos (posiblemente Odoo o Profit).
+            - Odoo: sistema contable utilizado para Eracon Alimentos. Se usa el libro de ventas de Odoo para determinar los conceptos de venta y calificar los porcentajes de declaración ante la Alcaldía de Chacao.
         - ¿Qué pasa cuando las cosas no salen normal?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Si no hay ventas en el período, igual debe declararse ante la Alcaldía de Chacao; el incumplimiento genera multa.
         - ¿Cómo les gustaría que funcionara idealmente?
-            - ⚠️ Pendiente validar en sesión próxima.
+            - Que Odoo detalle los conceptos de venta de forma que permita descargar un resumen listo para declarar ante la Alcaldía, sin necesidad de procesamiento manual adicional.
     - Propuesta 4.6.2: Inventario Intercompany Eracon Alimentos
         - Pendiente.
 
