@@ -30,7 +30,7 @@
 | 53 | Rosselvet Asdrubal Lugo Sandoval | Analista de Compras | SI | aslu@grupoeracon.com | — | Key User |
 | 54 | Victor Manuel Perez Carrizalez | Almacenista | SI | — | — | Key User |
 
-**Alias en documentos**: Victor = "Victor" (Almacen) / Asdrubal = "Asdrubal" (alias en documentos para Rosselvet Asdrubal Lugo Sandoval)
+**Alias en documentos**: Victor = "Victor" (Almacen)
 
 ---
 
