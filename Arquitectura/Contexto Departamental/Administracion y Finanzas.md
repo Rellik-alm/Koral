@@ -30,7 +30,15 @@
 | 53 | Rosselvet Asdrubal Lugo Sandoval | Analista de Compras | SI | aslu@grupoeracon.com | — | Key User |
 | 54 | Victor Manuel Perez Carrizalez | Almacenista | SI | — | — | Key User |
 
-**Alias en documentos**: Victor = "Victor" (Almacen)
+**Alias en documentos**: Victor = "Victor" (Almacen) / Asdrubal = "Asdrubal" (alias en documentos para Rosselvet Asdrubal Lugo Sandoval)
+
+---
+
+## Nuevo ingreso pendiente de registrar
+
+| Nombre | Cargo tentativo | Ubicacion | Nota |
+|---|---|---|---|
+| Zenaida (apellido pendiente) | Asistente / Apoyo administrativo | CCS | Mencionada por Ericka en sesion 2026-05-27 como responsable de vinculacion de facturas escaneadas en Odoo (tarea 4.4.3). Nuevo ingreso al equipo. |
 
 ---
 
