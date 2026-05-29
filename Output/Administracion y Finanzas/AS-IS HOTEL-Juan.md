@@ -1,7 +1,7 @@
 # AS - IS: Administración y Finanzas (HOTEL-Juan)
 
 Creado: 26 de marzo de 2026 16:04
-Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia completada. Alias corregidos. Frecuencia de TAREA 1.13 completada desde transcripción.
+Procesado: 2026-05-29 — Campos pendientes completados desde documento RE-IMPLEMENTACION (respuestas de Juan Jose Herrera Rangel).
 
 - FASE 1: **FACTURACION EN COMPRAS**
     - TAREA 1.1: Verificación y Validación del documento antes de procesarlo
@@ -37,9 +37,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Odoo: para importar la factura a partir del pedido recepcionado y registrarla.
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Factura con tasa de cambio incorrecta: se objeta al proveedor preguntando a qué tasa está facturando; no se procesa hasta que se aclare y se corrija.
-                - Documento con información incompleta o ilegible: ⚠️ Pendiente validar en sesión próxima (no se describe el procedimiento específico en la transcripción más allá de que no puede procesarse).
+                - Documento con información incompleta o ilegible: el documento se devuelve al proveedor para que lo corrija conforme a los parámetros válidos del SENIAT; no se procesa hasta recibir el documento corregido.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que todos los participantes en el proceso estén debidamente capacitados para actuar como filtro desde su etapa, de modo que las incidencias lleguen a cero al momento de la facturación.
         - Propuesta 1.1: Verificación y Validación del documento antes de procesarlo
             - Pendiente.
     - TAREA 1.2: Solicitud de pedidos de compras excepcionales
@@ -52,17 +52,17 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Juan Jose Herrera Rangel la ejecuta actualmente, aunque señala explícitamente que no debería hacerlo.
             - ¿Cuándo se hace?
                 - Disparador: Cuando se detecta una compra realizada sin pedido formal previo (por ejemplo, alguien fue directamente a un proveedor usando el RIF de la empresa sin pasar por Compras).
-                - Frecuencia: ⚠️ Pendiente validar en sesión próxima
+                - Frecuencia: Aproximadamente un pedido por día.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (en la transcripción Juan señala que realiza esta tarea pero que quiere eliminarla; no se describe el procedimiento paso a paso).
+                - Por lo general, un operador de la empresa acude directamente a un proveedor, adquiere la mercancía, la usa y luego entrega el documento a Administración para que sea procesado, sin haber pasado previamente por Compras. Esto invierte el orden del proceso: Juan debe solicitar al jefe de Compras que monte un pedido sin cotización previa, para dar cobertura contable a una compra que ya ocurrió.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Comunicación con el departamento de Compras para conocer el origen y destino de lo comprado.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un pedido abierto sin receptor formal, ya que nadie en Almacén o en el área de destino puede confirmar con precisión cómo se usó la mercancía.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Odoo: sistema de registro del pedido. Dispositivos disponibles (PC y/o teléfono móvil).
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Genera retrabajo y acumulación de pendientes, ya que cada compra fuera del canal formal requiere intervención adicional para regularizarse en el sistema.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Juan expresa que esta tarea debería eliminarse de sus responsabilidades. Señala que cuando alguien compra sin seguir el proceso, Compras no debería montar el pedido a posteriori dándole validez a algo que no pasó por el canal correcto.
         - Propuesta 1.2: Solicitud de pedidos de compras excepcionales
@@ -98,7 +98,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Error en el pedido: se reporta a niveles superiores de gerencia. Dependiendo de quién cometió el error, puede requerir corrección del pedido, devolución del pedido o elaboración de un nuevo pedido. El proceso puede retrasarse de horas a meses.
                 - El error no puede ser corregido por quien lo cometió: Juan debe levantar un informe detallado para que otro nivel jerárquico gestione la corrección, lo que puede implicar contacto con el proveedor y otros departamentos.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que los pedidos lleguen validados y correctos, de modo que no sea necesario revisarlos antes de importarlos a la factura.
         - Propuesta 1.3: Verificación y Validación del Pedido antes de importarlo a la factura
             - Pendiente.
     - TAREA 1.4: Solicitud de facturas a proveedores, chat directo con el proveedor
@@ -128,7 +128,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - WhatsApp: canal principal de comunicación directa con proveedores para esta gestión.
                 - Correo electrónico: se menciona como canal formal pero señala que solo se usa con proveedores en la confirmación de la compra; esa parte la gestiona Compras.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Los retrasos en la entrega de la factura por parte del proveedor retrasan los procesos de pago, acumulan obligaciones pendientes y exponen el monto disponible para pago al diferencial cambiario.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Juan señala que no ha sido posible establecer una línea directa de comunicación con los proveedores por correo electrónico para estas gestiones. La comunicación se centraliza en WhatsApp por practicidad.
         - Propuesta 1.4: Solicitud de facturas a proveedores, chat directo con el proveedor
@@ -161,9 +161,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para importar el pedido, crear y confirmar la factura de compra.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Si la información no coincide entre el pedido y la factura, se generan desbalances financieros que impiden declarar correctamente.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que el proceso sea menos estricto en cuanto a dependencias de otros usuarios: que quienes participan en etapas anteriores cierren sus procesos a tiempo, de modo que Juan, como analista que cierra al final, tenga tiempo y condiciones para revisar correctamente.
         - Propuesta 1.5: Registro de facturas
             - Pendiente.
     - TAREA 1.6: Recepción de Guías SUNAGRO SICA
@@ -194,10 +194,10 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Portal de SUNAGRO: para validar y recepcionar la guía de traslado.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - Guía no disponible para recepción en el portal: se reporta la situación. Juan señala que esto ocurrió una sola vez y no volvió a repetirse. ⚠️ Pendiente validar procedimiento específico de reporte en sesión próxima.
+                - Guía no disponible para recepción en el portal: se reporta la situación. Juan señala que esto ocurrió una sola vez y no volvió a repetirse. El procedimiento específico de reporte no fue detallado.
                 - No recepcionar a tiempo: genera una multa de SUNAGRO. Juan señala que el Enrique Rafael Cid (gerencia) puede tomar medidas disciplinarias ante esta omisión.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso funciona bien y sin inconvenientes con las herramientas actualmente establecidas.
         - Propuesta 1.6: Recepción de Guías SUNAGRO SICA
             - Pendiente.
     - TAREA 1.7: Solicitud de pago a Finanzas
@@ -226,11 +226,11 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué se genera al terminar?
                 - Confirmación de Ericka Milagro Antequera de que procede con el pago.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima (no se especifica el canal por el que Juan notifica a Ericka Milagro Antequera en esta tarea específica).
+                - Odoo: como sistema de registro de la factura. Dispositivos disponibles (PC y/o teléfono móvil) para la notificación a Finanzas.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Si la autorización de pago no llega, no se puede avanzar en el proceso de registro y todo se atrasa.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso funciona bien. La mejora pendiente es contar con un operador de compras que se encargue de retirar las facturas físicas de los proveedores, ya que actualmente las facturas llegan por foto y el original solo se recibe después del pago, lo que genera vulnerabilidad ante el extravío de documentos.
         - Propuesta 1.7: Solicitud de pago a Finanzas
             - Pendiente.
     - TAREA 1.8: Emisión de pagos de facturas a proveedores
@@ -261,7 +261,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Proveedores de servicios estatales (ej. luz, aseo urbano, gas comunal): sus trabajadores no reportan el pago a sus superiores, lo que genera cobros duplicados o reclamos. Juan resuelve mostrando el soporte del comprobante enviado en el historial del chat.
                 - Ericka Milagro Antequera no envía el comprobante de forma espontánea: Juan insiste hasta obtenerlo, ya que no puede comunicarse con el proveedor sin ese soporte.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Establecer horarios estrictos de pagos a proveedores.
         - Propuesta 1.8: Emisión de pagos de facturas a proveedores
             - Pendiente.
     - TAREA 1.9: Aplicación de pago a la factura
@@ -287,9 +287,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para aplicar el pago sobre la factura.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Los errores en la aplicación del pago generan descuadres que no permiten sincerar los balances, lo que obliga a retrabajar el proceso.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Simplificar el proceso de aplicación de pago en Odoo.
         - Propuesta 1.9: Aplicación de pago a la factura
             - Pendiente.
     - TAREA 1.10: Conciliación de pagos y cierre de factura
@@ -323,7 +323,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Pago devuelto en viernes: el proceso de corrección se extiende hasta el lunes siguiente inevitablemente.
                 - Pago devuelto no detectado a tiempo: puede generar notas de débito del proveedor, cambios en el monto original y disputas que toman semanas en resolverse.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contar con un personal dedicado exclusivamente a este proceso.
         - Propuesta 1.10: Conciliación de pagos y cierre de factura
             - Pendiente.
     - TAREA 1.11: Archivo de los pagos por origen bancario con su respectivo comprobante, haciéndolos visibles en la nube (correo) de Finanzas
@@ -360,7 +360,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Al totalizar mensualmente, Ericka Milagro Antequera detecta diferencia entre número de conciliaciones archivadas y movimientos bancarios del mes: el equipo identifica y evalúa la diferencia para determinar si hay conciliaciones faltantes o movimientos duplicados.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contar con personal dedicado a este proceso; la carga no es excesiva, pero disponer de apoyo ampliaría la capacidad operativa.
         - Propuesta 1.11: Archivo de los pagos por origen bancario con su respectivo comprobante, haciéndolos visibles en la nube (correo) de Finanzas
             - Pendiente.
     - TAREA 1.12: Escaneo e identificación de los documentos preparados para el cierre fiscal, elevándolos y haciendo la información visible en la nube (correo)
@@ -396,7 +396,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Escaneo de mala calidad (descentrado, ilegible, mal enfocado): se corrige el escaneo documento por documento antes de cargarlo.
                 - Número de facturas en carpeta no coincide con las declaradas: se identifica la diferencia con Ericka Milagro Antequera y se resuelve antes del cierre.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso funciona bien y no implica carga significativa de trabajo.
         - Propuesta 1.12: Escaneo e identificación de los documentos preparados para el cierre fiscal, elevándolos y haciendo la información visible en la nube (correo)
             - Pendiente.
     - TAREA 1.13: Archivo y resguardo de los documentos físicos procesados
@@ -422,9 +422,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - No aplica (proceso físico/manual).
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El incumplimiento en el archivo y disponibilidad de los documentos en la nube constituye una situación sancionable, ya que la información no declarable en tiempo puede acarrear multas.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso en este nivel es aceptable tal como está.
         - Propuesta 1.13: Archivo y resguardo de los documentos físicos procesados
             - Pendiente.
     - TAREA 1.14: Organizar, embalar y enviar Valija a administración Caracas
@@ -454,7 +454,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - No hay disponibilidad de transporte mensual: los documentos se acumulan hasta el trimestre.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contar con personal de apoyo para el proceso de embalaje, especialmente en el momento de armar la valija.
         - Propuesta 1.14: Organizar, embalar y enviar Valija a administración Caracas
             - Pendiente.
     - TAREA 1.15: Reportar novedades de facturas y/o pedidos que ameriten corrección
@@ -481,7 +481,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Actividad asignada en Odoo al usuario que debe corregir.
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para asignar actividades a los usuarios responsables de la corrección.
-                - WhatsApp / correo electrónico: para escalar el reporte según el caso. ⚠️ Pendiente validar canal específico por tipo de error en sesión próxima.
+                - WhatsApp / correo electrónico: para escalar el reporte según el caso. El informe consume tiempo y el manejo de pendientes resultante es desgastante, especialmente cuando el nivel responsable de la corrección está ocupado y demora en resolver.
             - ¿Qué pasa cuando las cosas no salen normal?
                 - El error involucra a quien no puede corregirlo: Juan debe escalar a otro nivel jerárquico, lo que genera incomodidad interpersonal ya que Juan queda en el rol de "el que reporta".
                 - Error grave que involucra a varios departamentos: puede extenderse hasta reportes a Talento Humano vía correo formal.
@@ -513,9 +513,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: funcionalidad de actividades (enviar mensaje / registrar nota / asignar actividad).
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - La situación es percibida como un castigo para quien detecta el error: el usuario que identifica el fallo ajeno debe elaborar un informe, asignar la actividad y exponer el caso por correo o WhatsApp, lo que genera incomodidad adicional.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que cada usuario asuma su proceso, lo cierre, lo revise exhaustivamente y lo reporte de forma efectiva y correcta.
         - Propuesta 1.16: Asignación de actividades por información concerniente a otro usuario, además asignar actividad sobre errores detectados
             - Pendiente.
     - TAREA 1.17: Seguimiento y cierre de facturas y/o pedidos registrados con error, reportados y pendientes, instruido por Gerencia General, Gerencia de administración y finanzas
@@ -630,7 +630,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Odoo: para revisar estados financieros del proveedor, aplicar anticipos a facturas.
                 - WhatsApp: para comunicarse con el proveedor en los casos procedentes.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - Proveedor no reconoce el saldo a su favor o no responde: ⚠️ Pendiente validar en sesión próxima.
+                - Proveedor no reconoce el saldo a su favor o no responde: cuando un anticipo es muy antiguo y supera el año fiscal declarado, el proveedor difícilmente acepta que se aplique en sus pagos futuros, lo que deja el saldo abierto en la contabilidad.
                 - Caso de anticipo-préstamo (ej. teléfono): el descuento parcial por cuotas genera un seguimiento prolongado que involucra a Juan, Ericka Milagro Antequera y la contabilidad, ya que cada factura debe ajustarse manualmente.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Juan señala que esta tarea le está siendo asignada de forma creciente y que aunque la ha cuestionado, Ericka Milagro Antequera confirma que debe ser él quien la gestione. Expresa que la depuración de saldos de años anteriores (2023-2024) es compleja y voluminosa.
@@ -656,15 +656,15 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Paso 1: Al llegar el día 15 o el último día del mes, notificar el cese de registro de facturas de compras del período.
                 - Paso 2: Iniciar el proceso de descargue del libro de compras para la declaración.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima (no se especifica el canal ni los destinatarios de la notificación de cese).
+                - Que toda la información a declarar esté cerrada y al día al momento del corte, de modo que el reporte quincenal pueda organizarse sin rezagos.
             - ¿Qué se genera al terminar?
                 - Notificación de cese emitida; inicio formal del proceso de cierre fiscal quincenal.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Odoo: para verificar el estado del registro de facturas. Correo corporativo (nube). Dispositivos disponibles (PC y/o teléfono móvil).
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso se retrasa y se incumple la instrucción de gerencia de entregar la información en tiempo oportuno.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que todos los participantes del cierre en cada departamento comprendan que cumplir eficientemente su parte permite entregar la información a tiempo.
         - Propuesta 2.1: Informar el cese de registros de facturas de compras para dar inicio al descargue del libro de compras a declarar
             - Pendiente.
     - TAREA 2.2: Verificación en 1era revisión de los documentos a declarar procedentes al cierre fiscal
@@ -679,17 +679,17 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Cese de registro de facturas declarado (TAREA 2.1).
                 - Frecuencia: Quincenal.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (en la transcripción se menciona la existencia de esta primera revisión pero no se detallan los pasos específicos).
+                - El día del cierre (quince o último del mes), Juan revisa los documentos físicos verificando que cumplan con los requisitos formales exigidos por la ley. Adicionalmente, verifica que las retenciones, anticipos y recibos de pago estén correctamente reflejados en el balance general, y que los documentos estén cerrados en pagos y conciliaciones en el sistema. La segunda revisión, más específica en cuanto al uso de cuentas contables, pagos de anticipos y extemporales, no es tan exigente en tiempo.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Tiempo disponible y dedicación exclusiva para ejecutar el trabajo de revisión efectivamente.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un reporte legible, entendible y específico de lo registrado en los 15 días del período.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Odoo: para revisar el estado de facturas y documentos del período. Correo corporativo (nube). Dispositivos disponibles (PC y/o teléfono móvil).
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se incurre en falta sancionable y, en caso extremo, puede generarse una multa.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contar con un plan de declaración para todos los departamentos y que los procesos se cumplan de forma ordenada.
         - Propuesta 2.2: Verificación en 1era revisión de los documentos a declarar procedentes al cierre fiscal
             - Pendiente.
     - TAREA 2.3: Verificación de estatus y conteo de los documentos asegurados y archivados en administración Tucacas y administración Caracas
@@ -704,17 +704,21 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Inicio del proceso de cierre fiscal quincenal (posterior a TAREA 2.1).
                 - Frecuencia: Quincenal.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (se menciona la tarea en el inventario y Juan la confirma como parte del cierre, pero no se detalla el procedimiento en la transcripción).
+                - Paso 1: Descargar el libro de compras de la quincena a declarar desde Odoo.
+                - Paso 2: Evaluar los documentos físicos recibidos en Tucacas.
+                - Paso 3: Validar los documentos recibidos en Caracas y los que están pendientes de llegar o aún en manos de proveedores.
+                - Paso 4: Elevar en la nube los documentos disponibles en foto o PDF.
+                - Paso 5: Contar los documentos asegurados y organizados en carpeta y reportar el resultado.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Tiempo disponible. Escáner. PC. Material de archivo y de oficina.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un reporte con el conteo de documentos registrados y su estado; una carpeta identificada destinada a la valija.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Odoo: para descargar el libro de compras. Correo corporativo (nube). Dispositivos disponibles (PC y/o teléfono móvil). Escáner.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se reporta información incompleta, lo que puede ser motivo de sanciones.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contar con personal que apoye el registro y archivo de los documentos.
         - Propuesta 2.3: Verificación de estatus y conteo de los documentos asegurados y archivados en administración Tucacas y administración Caracas
             - Pendiente.
     - TAREA 2.4: Seguimiento de los documentos en tránsito en manos de proveedores, identificando para exigir antes de reportar el cierre fiscal
@@ -743,7 +747,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - La factura no llega antes del cierre: se reporta en el desglose quincenal como pendiente.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que la recuperación de documentos en tránsito sea tratada como prioridad y que se cuente con personal con vehículo asignado para gestionar el cobro físico de los documentos pendientes.
         - Propuesta 2.4: Seguimiento de los documentos en tránsito en manos de proveedores, identificando para exigir antes de reportar el cierre fiscal
             - Pendiente.
     - TAREA 2.5: Validar el cierre total de las facturas a declarar. Se exceptúan en este caso los documentos que han de estar abiertos procedentes al cierre fiscal por asiento contable
@@ -758,17 +762,17 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Previo al reporte del cierre fiscal quincenal.
                 - Frecuencia: Quincenal.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (Juan confirma la existencia de esta validación pero no detalla los pasos en la transcripción).
+                - Se valida en el sistema verificando que las facturas estén correctamente registradas. Si existe una factura con error de registro o de ejecución, se excluye del total y se totaliza únicamente con las facturas procedentes para la declaración.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Revisión comparativa entre los documentos físicos y los registros en Odoo.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Información detallada y pertinente para que Finanzas pueda verificar y declarar.
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para verificar el estatus de cierre de las facturas del período.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - La información resulta incompleta y puede ser motivo de sanciones.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso es muy específico y Juan no tiene problemas con él. La mejora que señala es que quienes registran facturas también elaboren informes de lo que hacen, para que no sea responsabilidad exclusiva de Juan consolidar y verificar.
         - Propuesta 2.5: Validar el cierre total de las facturas a declarar
             - Pendiente.
     - TAREA 2.6: Revisión, validación de las retenciones de IVA e ISLR que sean correctas y estar incluidas en el período a declarar
@@ -783,17 +787,17 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Proceso de cierre fiscal quincenal, previo al descargue del libro de compras.
                 - Frecuencia: Quincenal.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (Juan confirma que realiza esta revisión, mencionada en la TAREA 1.5 como paso previo al registro, pero el proceso detallado de validación en el cierre no se describe en la transcripción).
+                - El proceso no es complejo: Odoo dispone de las herramientas necesarias. Se descargan las retenciones generadas en el período, se verifican los montos y se confirma que no haya errores.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Tiempo disponible y acceso a los dispositivos (PC y/o teléfono móvil).
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un reporte de revisión de retenciones del período.
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para revisar y validar las retenciones aplicadas a las facturas del período.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Los errores pueden corregirse sin mayores inconvenientes durante la revisión. Si no se corrigen, no se puede declarar: el sistema genera error y retrasa el proceso de Finanzas, con riesgo de sanción para Juan.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso está bien; no hay objeciones.
         - Propuesta 2.6: Revisión, validación de las retenciones de IVA e ISLR que sean correctas y estar incluidas en el período a declarar
             - Pendiente.
     - TAREA 2.7: Enumeración del Libro de compras en la nube
@@ -808,18 +812,18 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Validación completa de las facturas y retenciones del período (resultado de TAREAS 2.2 a 2.6).
                 - Frecuencia: Quincenal.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (Juan confirma que se enumera el libro y se carga en la nube, mencionándolo al final de la descripción del cierre quincenal, pero no detalla los pasos en la transcripción).
+                - El libro lleva un orden específico determinado por el sistema, que asigna un lugar a cada factura a declarar. Paso 1: Cargar las facturas escaneadas en la nube. Paso 2: Descargar el libro de compras desde Odoo. El orden de descarga sirve como referencia para la numeración. La enumeración solo se realiza cuando se tiene certeza de que no hay más facturas por incluir, ya que agregar una factura mueve el orden y obliga a retrabajar.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Tiempo disponible. Todas las facturas escaneadas y cargadas en la nube. Cierre definitivo del registro de facturas del período, ya que incluir una factura nueva desordena la numeración.
             - ¿Qué se genera al terminar?
                 - Libro de compras del período enumerado y disponible en la nube.
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para descargar el libro de compras.
                 - Nube del correo corporativo (Microsoft): para cargar y compartir el libro.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se pierde tiempo valioso. Si pasadas las 5:00 pm aún se están registrando facturas, no queda tiempo suficiente para revisar, escanear y enumerar correctamente.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que se establezca una planificación con horarios definidos para pedidos, compras, facturación y pagos, de modo que quede tiempo disponible para ejecutar los procesos administrativos de cierre.
         - Propuesta 2.7: Enumeración del Libro de compras en la nube
             - Pendiente.
 
@@ -854,7 +858,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Odoo (módulo de Compras): para filtrar y revisar pedidos abiertos.
                 - Excel en la nube (Microsoft / correo corporativo): para registrar y totalizar las cuentas por pagar. Juan señala que Enrique Rafael Cid no está satisfecho con este método pero que por los momentos no hay otra alternativa.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se puede incurrir en informar obligaciones de pago no reales, distorsionando la planificación financiera.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Juan señala que Enrique Rafael Cid preferiría no usar el Excel y que debería poder hacerse directamente desde el sistema, pero que actualmente el volumen de pedidos sucios en Odoo hace inviable prescindir del archivo manual.
         - Propuesta 3.1: Verificación de los pedidos de proveedores con ventas a crédito
@@ -882,9 +886,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Excel en la nube (Microsoft / correo corporativo): para organizar y totalizar.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se retrasan los procesos y se limita el avance de otros departamentos involucrados; el más afectado es Administración.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que exista reciprocidad en la información de pedidos hacia Administración y que no se cometan errores que generen retrasos en la consolidación.
         - Propuesta 3.2: Organizar manualmente los pedidos para totalizar en archivo
             - Pendiente.
     - TAREA 3.3: Reporte diario de actualización de las cuentas por pagar
@@ -909,9 +913,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - WhatsApp (grupo de pago): canal de reporte a Finanzas.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se incumple ante gerencia con la obligación de informar las obligaciones de pago vigentes.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que el reporte de cuentas por pagar pueda descargarse directamente desde Odoo, eliminando la dependencia del archivo manual en Excel.
         - Propuesta 3.3: Reporte diario de actualización de las cuentas por pagar
             - Pendiente.
     - TAREA 3.4: Marcar en los archivos las facturas pagadas de proveedores y las pendientes por pagar, enlazado con la tutoría de Gerencia de Finanzas
@@ -944,7 +948,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Proveedor exige pago fuera de la planificación: aunque el proveedor tiene derecho a exigir su pago dentro del plazo de crédito, la empresa puede no tener disponibilidad en ese momento. Juan y Ericka Milagro Antequera evalúan el caso y toman la decisión de pago extraordinario si corresponde.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Simplificar este proceso, ya que consume tiempo considerable.
         - Propuesta 3.4: Marcar en los archivos las facturas pagadas de proveedores y las pendientes por pagar, enlazado con la tutoría de Gerencia de Finanzas
             - Pendiente.
     - TAREA 3.5: Validación de cuentas por pagar vencidas en plazos de crédito
@@ -979,7 +983,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Proveedor inflexible que exige pago inmediato: Juan escala a Ericka Milagro Antequera, quien evalúa si existe disponibilidad para el pago urgente, aunque esté fuera de toda planificación.
                 - Gerencia instruye no pagar ese día aunque haya vencimientos: Juan gestiona la prórroga con los proveedores afectados.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso es sencillo; Juan no tiene observaciones al respecto.
         - Propuesta 3.5: Validación de cuentas por pagar vencidas en plazos de crédito
             - Pendiente.
     - TAREA 3.6: Registro y archivo de Notas de despacho de cuentas por pagar
@@ -1116,7 +1120,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Odoo: para registrar la factura.
                 - Excel en la nube (Microsoft / correo corporativo): para incluir manualmente la factura como cuenta por pagar.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Puede ocurrir que no se informe a gerencia una obligación de pago real, lo que retrasa el pago al proveedor y pone en duda el cumplimiento de los acuerdos, dejando cuentas abiertas sin pagar.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Ericka Milagro Antequera ha instruido a Juan que cuando llegue una factura de cuenta por pagar de este tipo, la lleve directamente al Excel de cuentas por pagar como factura, sin esperar a descargarla del módulo de compras.
         - Propuesta 3.9: Actualización manual de cuentas pendientes de pago en proveedores que despachen con facturas fiscal
@@ -1145,7 +1149,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Si no se aparta: cuando el proveedor cobra, puede no haber disponibilidad para pagar. Juan argumentó este riesgo ante Enrique Rafael Cid para que aprobara incluir estos servicios anticipadamente en las cuentas por pagar aunque aún no hayan facturado.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Establecer una planificación de pedidos o acuerdos marco con estos proveedores, de modo que exista un mecanismo formal para apartar los fondos de pago y no se genere una cuenta sin pedido en la relación de proveedores a crédito, dado que estos servicios no son cuentas a crédito en sentido estricto.
         - Propuesta 3.10: Actualización e inclusión manual en las cuentas por pagar de los proveedores de servicios mensuales (CORPOELEC / TELMACA / SEGURIDAD)
             - Pendiente.
     - TAREA 3.11: En caso de certificados de retención, se envía Digital con PDF vía correo, WhatsApp impreso, en este último se recibe copia firmada y se archiva
@@ -1176,14 +1180,14 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Certificado de retención enviado al proveedor por el canal correspondiente.
                 - Copia firmada archivada en carpeta de comprobantes de retención (cuando aplica el canal impreso).
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima (no se especifica el sistema desde el cual se genera el certificado de retención).
+                - Odoo: genera el certificado de retención (IVA o ISLR) desde el módulo de facturación. Los pagos de retención se agregan sobre la factura, se descarga el certificado y, si se entrega impreso, el proveedor lo firma y sella como constancia de recepción.
                 - WhatsApp: para envío digital al proveedor.
                 - Correo electrónico: para envío digital formal.
                 - Impresora: para emisión en físico.
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Proveedor alega no haber recibido el certificado: si fue entregado impreso y firmado, Juan presenta la copia firmada como evidencia.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso es simple, no consume tiempo ni esfuerzo significativo; Juan está conforme con él.
         - Propuesta 3.11: Emisión y archivo de certificados de retención
             - Pendiente.
 
@@ -1218,9 +1222,9 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para registrar la factura.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Surgen problemas como que el servicio llega y nadie lo sabe, no se recibe el pedido en Odoo, y el proveedor se frustra por falta de atención y respuesta de pago.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que exista un gerente de operaciones responsable de validar la necesidad del servicio, organizar la compra, recibir al proveedor y gestionar el documento de compromiso de pago. En el estado actual, Juan realiza casi todas esas funciones aunque no le corresponden.
         - Propuesta 7.1: Atención a proveedores directamente en los despachos de pedidos como servicios de agua en cisterna, gas a granel, Internet
             - Pendiente.
     - TAREA 7.2: Supervisión en la recepción de pedidos de gran envergadura, ej. Víveres, verduras, bebidas, químicos, ferretería
@@ -1250,7 +1254,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Confusión en Almacén sobre qué se pidió o para quién: Juan interviene para resolver y evitar que se genere un problema que frene la facturación.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Esta supervisión se realiza como apoyo; en ausencia de un jefe de operaciones, Juan debe estar pendiente para evitar que lleguen pedidos sin que nadie informe. Debería ser responsabilidad de un jefe de Operaciones.
         - Propuesta 7.2: Supervisión en la recepción de pedidos de gran envergadura
             - Pendiente.
     - TAREA 7.3: Órdenes de entrada y salida de productos, mercancía, artículos que por obsequio, compra, donación, propina, entre otros, ameriten documento que avale entrada o salida de la empresa
@@ -1278,7 +1282,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué se genera al terminar?
                 - Orden de salida firmada y entregada a la persona que retira el artículo.
             - ¿Qué sistemas o herramientas usan?
-                - Formato físico o digital de orden de salida: ⚠️ Pendiente validar en sesión próxima si es impreso o hay plantilla digital.
+                - Formato físico o digital de orden de salida: ⚠️ Pendiente validar — no se confirmó si el formato es impreso o existe plantilla digital.
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Persona intenta salir sin orden de salida: seguridad la detiene en la puerta. Juan debe gestionar la emisión urgente de la orden.
                 - Persona dice tener autorización verbal del jefe sin soporte: Juan verifica directamente con el jefe antes de emitir la orden. Puede ser un audio del jefe como soporte mínimo.
@@ -1306,7 +1310,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Paso 4: Para proveedores recurrentes con incumplimientos, explicar cada vez que vienen hasta que internalicen el proceso (ejemplo: proveedor de electrónica que recoge motores para reparación).
             - ¿Qué necesitan para hacer esta tarea?
                 - Conocimiento de todos los procesos administrativos del hotel.
-                - ⚠️ Pendiente validar en sesión próxima si existe material de orientación documentado (manual, formato, flyer, etc.).
+                - Administración no maneja material de orientación documentado directamente; Juan indica que debe existir en Talento Humano.
             - ¿Qué se genera al terminar?
                 - Personal o proveedor orientado que cumple el proceso en esa instancia.
             - ¿Qué sistemas o herramientas usan?
@@ -1314,7 +1318,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Personal que no internaliza el proceso a pesar de la orientación repetida: Juan continúa explicando cada vez. No se menciona en la transcripción un mecanismo de escalamiento para estos casos.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que sea Talento Humano quien se encargue de facilitar esta información, con el apoyo de Administración.
         - Propuesta 7.4: Atención y asesoramiento al personal de la empresa y/o terceros en cumplimiento de procesos
             - Pendiente.
     - TAREA 7.5: Recepción de mercancías, materiales, equipos y otros que por no ser productos a almacenar, se ordenan recibir en administración
@@ -1343,11 +1347,11 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Registro en el inventario interno de la oficina si aplica.
             - ¿Qué sistemas o herramientas usan?
                 - Odoo: para registrar la recepción y afectar la cuenta contable; esta operación la ejecuta Libny Carina Tarazon Gallegos.
-                - Inventario interno de la oficina: ⚠️ Pendiente validar en sesión próxima el formato o sistema que se usa para este inventario.
+                - Inventario interno de la oficina: no hay un formato definido; el registro es informal.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se descontrolan los inventarios de la oficina.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que los artículos recibidos en la oficina queden registrados de forma ordenada en Odoo y/o en carpeta física, incluyendo quién lo envió, para quién es y quién es responsable de su distribución.
         - Propuesta 7.5: Recepción de mercancías, materiales, equipos y otros que por no ser productos a almacenar, se ordenan recibir en administración
             - Pendiente.
     - TAREA 7.6: En la oficina de administración responsabilidad en resguardo de llaves, Originales y copias de vehículos, depósitos, puertas de acceso a diferentes módulos, áreas de cocina
@@ -1362,18 +1366,18 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Solicitud de llave por parte de algún miembro del personal o situación de extravío.
                 - Frecuencia: Continua (resguardo permanente); atención de solicitudes bajo demanda y con alta frecuencia diaria.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (Juan describe el alcance pero no detalla el procedimiento de préstamo, registro o control de llaves).
+                - Las llaves originales quedan resguardadas en la oficina; las copias las tienen los jefes de departamento. Cuando un jefe no dispone de su llave, recurre a las originales en Administración para resolver la emergencia.
             - ¿Qué necesitan para hacer esta tarea?
                 - Juego de llaves originales y copias de todos los ambientes del hotel (aprox. 80 habitaciones, 25-30 depósitos, puertas de acceso de todos los módulos, cocinas, vehículos).
-                - ⚠️ Pendiente validar en sesión próxima si hay un registro formal de control de llaves (tabla, planilla, etc.).
+                - No existe un registro formal de control; el resguardo se realiza en una tabla física fijada en la pared de la oficina con ganchos para colgar las llaves.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un inventario visible de llaves disponibles en la oficina.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima (se menciona una tabla o agenda de llaves pero no se precisa el formato).
+                - Tabla física con ganchos en la pared de la oficina de administración; no hay sistema digital ni formato de control.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Si una llave prestada no se devuelve y se extravía, debe reemplazarse la cerradura correspondiente.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que esta responsabilidad sea asignada a otra persona; el manejo de llaves genera atención constante al personal y acumulación de pendientes para Juan.
         - Propuesta 7.6: Resguardo de llaves en la oficina de administración
             - Pendiente.
     - TAREA 7.7: En la oficina de administración responsabilidad en resguardo de material y equipo asignado por Gerencia General
@@ -1381,26 +1385,26 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué es esta tarea?
                 - Custodia en la oficina de administración de materiales y equipos que la Gerencia General asigna bajo la responsabilidad de ese departamento.
             - ¿Qué es esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima (Juan confirma que esta tarea es similar a la anterior 7.6 y la agrupa, sin detallar qué tipos de materiales y equipos están bajo esta responsabilidad más allá del resguardo general).
+                - Custodia en la oficina de administración de materiales y equipos que jefes o la Gerencia General deciden dejar bajo responsabilidad del departamento. Ejemplo: el equipo de Internet Starlink queda bajo resguardo de Administración.
             - ¿Para qué se hace?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Para cumplir instrucciones de gerencia sobre el resguardo de equipos y materiales asignados.
             - ¿Qué roles ejecutan esta tarea?
                 - Juan Jose Herrera Rangel (Administración / Facturación de Compras).
             - ¿Cuándo se hace?
-                - Disparador: ⚠️ Pendiente validar en sesión próxima
-                - Frecuencia: ⚠️ Pendiente validar en sesión próxima
+                - Disparador: Instrucción de un jefe o de Gerencia General de dejar un equipo o material bajo custodia de Administración.
+                - Frecuencia: Permanente; siempre hay algo en resguardo.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se recibe el equipo o material y se mantiene en la oficina hasta que sea requerido o retirado por quien corresponde.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Presencia en la oficina para mantener la custodia.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un pendiente de gestión hasta que el equipo o material sea retirado o redistribuido.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Ninguno; el resguardo es físico y manual.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Se genera un problema de trazabilidad sobre el equipo o material bajo custodia.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que los equipos y materiales en resguardo queden registrados e informados a través de un sistema de información formal.
         - Propuesta 7.7: Resguardo de material y equipo asignado por Gerencia General
             - Pendiente.
     - TAREA 7.8: Entrega de equipos dañados al Dtto Electrónica / Tecnología por instrucciones de Gerencia General
@@ -1430,7 +1434,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué sistemas o herramientas usan?
                 - Cuaderno físico de minutas del Departamento de Tecnología.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Dado que la tarea no es propia de Administración, si ocurre algún problema con el equipo durante la gestión, Juan quedaría involucrado en una responsabilidad que no considera suya.
             - ¿Cómo les gustaría que funcionara idealmente?
                 - Juan señala que intentó que esta tarea le fuera asignada a otra persona, pero que gerencia se la mantuvo a él.
         - Propuesta 7.8: Entrega de equipos dañados al Departamento de Electrónica / Tecnología
@@ -1440,24 +1444,24 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué es esta tarea?
                 - Participación de Juan como apoyo en la toma física de inventarios generales o de departamentos específicos cuando esta actividad se lleva a cabo.
             - ¿Para qué se hace?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Juan señala que el propósito debe ser definido por el departamento que convoca el inventario; él participa en rol de apoyo y no es quien determina el para qué.
             - ¿Qué roles ejecutan esta tarea?
                 - Juan Jose Herrera Rangel (Administración / Facturación de Compras): rol de apoyo.
             - ¿Cuándo se hace?
                 - Disparador: Convocatoria a toma física de inventario general o departamental.
                 - Frecuencia: Esta tarea está actualmente frenada; Juan señala que los inventarios no se han realizado más y que la toma física está detenida.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Contando y registrando los productos a inventariar con su descripción correspondiente.
             - ¿Qué necesitan para hacer esta tarea?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Tiempo, concentración y material de oficina.
             - ¿Qué se genera al terminar?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un inventario actualizado.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El proceso se realiza manualmente; se requiere material de oficina.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - El inventario debe repetirse.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que se organice un equipo dedicado para la toma de inventarios con el apoyo del personal disponible; las veces que se ha realizado, el personal asignado ha sido insuficiente para la magnitud de la tarea.
         - Propuesta 7.9: Apoyo en la realización de inventarios generales o departamentales
             - Pendiente.
     - TAREA 7.10: Distribución enlistada de uniformes, material de trabajo, equipos de trabajo, material de oficina, radio de comunicación
@@ -1484,12 +1488,12 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué se genera al terminar?
                 - Lista de distribución actualizada, enviada a Talento Humano.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima (no se especifica si la lista es en papel, Excel u otro formato).
+                - Registro manual en papel; se archiva en carpeta física (material de papelería).
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Personal que solicita un artículo que ya recibió: Juan consulta la lista y muestra el registro como evidencia de que ya fue entregado.
                 - Personal que pide el mismo artículo a Talento Humano y a Juan para recibir duplicado: el cruce entre el registro de Juan y el de Talento Humano permite detectar el duplicado.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Que esta tarea sea asignada a otro departamento.
         - Propuesta 7.10: Distribución enlistada de uniformes, material de trabajo, equipos de trabajo, material de oficina, radio de comunicación
             - Pendiente.
 
@@ -1509,19 +1513,19 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Solicitud de un jefe o de la operación de un documento administrativo específico.
                 - Frecuencia: Bajo demanda.
             - ¿Cómo se hace?
-                - ⚠️ Pendiente validar en sesión próxima (Juan confirma que elabora estos documentos pero no detalla el procedimiento en la transcripción).
+                - Se recibe la solicitud o instrucción del jefe, se recopila la información necesaria y se elabora el documento utilizando los formatos disponibles.
             - ¿Qué necesitan para hacer esta tarea?
                 - Instrucción o solicitud del jefe.
                 - Información necesaria para completar el documento.
-                - ⚠️ Pendiente validar en sesión próxima si hay plantillas o formatos estandarizados.
+                - Plantillas o formatos estandarizados: existen y están disponibles.
             - ¿Qué se genera al terminar?
                 - Documento administrativo elaborado y entregado a quien lo solicitó.
             - ¿Qué sistemas o herramientas usan?
-                - ⚠️ Pendiente validar en sesión próxima (procesador de texto, plantillas, etc.).
+                - Procesador de texto con plantillas disponibles; se cuenta con estas herramientas.
             - ¿Qué pasa cuando las cosas no salen normal?
-                - ⚠️ Pendiente validar en sesión próxima
+                - No debería generarse un problema en esta tarea; es parte de la rutina y corresponde a las competencias del cargo.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - No hay objeciones con este proceso.
         - Propuesta 8.1: Realizar oficios, formatos de requisiciones, inventarios, lista de personal, entre otros
             - Pendiente.
     - TAREA 8.2: Sacar copias, hacer impresiones, supervisar el uso del sello, escaneo de documentos, actualizar los puntos de venta, verificar que los equipos administrativos estén operativos
@@ -1536,12 +1540,12 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
                 - Disparador: Necesidad operativa del día (impresión, copia, escaneo) o instrucción del banco para actualización de punto de venta.
                 - Frecuencia: Diaria para copias/impresiones/escaneos; la actualización de puntos de venta es esporádica y a solicitud del banco.
             - ¿Cómo se hace?
-                - Para copias, impresiones y escaneos: ⚠️ Pendiente validar en sesión próxima.
+                - Para copias, impresiones y escaneos: Juan o Libny Carina Tarazon Gallegos ejecutan las tareas según disponibilidad. Juan señala que debería existir una oficina de apoyo a los departamentos para estas operaciones, ya que su ausencia genera carga adicional.
                 - Para actualización de punto de venta:
                     - Paso 1: El banco se comunica con Juan (o con Ericka Milagro Antequera quien redirige a Juan) indicando que hay una actualización del sistema operativo del terminal.
                     - Paso 2: Juan sigue el proceso de actualización del terminal con el banco.
-                - Para supervisión del sello: ⚠️ Pendiente validar en sesión próxima.
-                - Para verificación de equipos: ⚠️ Pendiente validar en sesión próxima.
+                - Para supervisión del sello: existe un solo sello en la empresa que es compartido por varios departamentos; Juan supervisa su uso y ubicación.
+                - Para verificación de equipos: el equipo de oficina está asignado a Juan, quien verifica su operatividad.
             - ¿Qué necesitan para hacer esta tarea?
                 - Acceso a impresora, fotocopiadora y escáner.
                 - Sello de la empresa.
@@ -1555,7 +1559,7 @@ Procesado: 2026-05-04 — Revisión de cobertura, completitud y coherencia compl
             - ¿Qué pasa cuando las cosas no salen normal?
                 - Terminal de punto de venta lento o con errores por falta de actualización: el banco contacta a Juan para programar la actualización. Juan lo compara con no actualizar WhatsApp: el sistema se va poniendo lento.
             - ¿Cómo les gustaría que funcionara idealmente?
-                - ⚠️ Pendiente validar en sesión próxima
+                - Un proceso más simple con apoyo dedicado para las operaciones de soporte de oficina.
         - Propuesta 8.2: Operaciones de soporte administrativo
             - Pendiente.
     - TAREA 8.3: Informar a través de los diferentes medios sobre las eventualidades suscitadas a través de informes escritos, reportes en los grupos de trabajo, correo electrónico, con alcance para alta gerencia
